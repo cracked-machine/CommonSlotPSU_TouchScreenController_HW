@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 24)
+    (drawings 25)
     (tracks 52)
     (zones 0)
     (modules 4)
@@ -516,6 +516,9 @@
     )
   )
 
+  (gr_text POS (at 118.872 71.882) (layer F.Cu)
+    (effects (font (size 4 4) (thickness 1)) (justify mirror))
+  )
   (gr_text ADDR (at 189.23 87.63) (layer B.SilkS) (tstamp 5CAF1A23)
     (effects (font (size 1.2 1.2) (thickness 0.1)) (justify left mirror))
   )
