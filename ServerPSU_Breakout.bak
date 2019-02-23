@@ -5668,46 +5668,46 @@ Wire Wire Line
 Text Label 5250 3100 1    50   ~ 0
 GND
 Wire Wire Line
-	5450 4200 5950 4200
+	6900 4550 6400 4550
 Wire Wire Line
-	5450 4300 5950 4300
+	6900 4450 6400 4450
 Wire Wire Line
-	5450 4400 5950 4400
+	6900 4350 6400 4350
 Wire Wire Line
-	5450 4500 5950 4500
+	6900 4250 6400 4250
 Wire Wire Line
-	5450 4600 5950 4600
+	6900 4150 6400 4150
 Wire Wire Line
-	5950 4700 5450 4700
-Text Label 5450 4700 0    50   ~ 0
+	5900 4150 5400 4150
+Text Label 5400 4150 0    50   ~ 0
 PSON
-Text Label 5450 4600 0    50   ~ 0
+Text Label 6900 4150 2    50   ~ 0
 ISHARE
-Text Label 5450 4500 0    50   ~ 0
+Text Label 6900 4250 2    50   ~ 0
 PSOK
-Text Label 5450 4400 0    50   ~ 0
+Text Label 6900 4350 2    50   ~ 0
 PRESENT
-Text Label 5450 4300 0    50   ~ 0
+Text Label 6900 4450 2    50   ~ 0
 12VSB
-Text Label 5450 4200 0    50   ~ 0
+Text Label 6900 4550 2    50   ~ 0
 PSINTERRUPT
 Wire Wire Line
-	5950 3800 5450 3800
+	5900 4450 5400 4450
 Wire Wire Line
-	5950 4000 5450 4000
+	5900 4350 5400 4350
 Wire Wire Line
-	5950 4100 5450 4100
-Text Label 5450 3800 0    50   ~ 0
+	5900 4250 5400 4250
+Text Label 5400 4450 0    50   ~ 0
 ADDR
 Wire Wire Line
-	5950 3900 5250 3900
+	5900 4550 5200 4550
 Wire Wire Line
-	5250 4300 5250 3900
-Text Label 5250 4300 1    50   ~ 0
+	5200 4850 5200 4550
+Text Label 5200 4850 1    50   ~ 0
 GND
-Text Label 5450 4100 0    50   ~ 0
+Text Label 5400 4250 0    50   ~ 0
 SDA
-Text Label 5450 4000 0    50   ~ 0
+Text Label 5400 4350 0    50   ~ 0
 SCL
 $Comp
 L Connector_Generic:Conn_01x06 J_VOUT1
@@ -5786,14 +5786,14 @@ Wire Wire Line
 Wire Wire Line
 	5250 2900 5650 2900
 $Comp
-L Connector_Generic:Conn_01x10 J_DATA1
-U 1 1 5C7060C6
-P 6150 4200
-F 0 "J_DATA1" H 6230 4192 50  0000 L CNN
-F 1 "1x10_2.54mm" H 6230 4101 50  0000 L CNN
-F 2 "" H 6150 4200 50  0001 C CNN
-F 3 "~" H 6150 4200 50  0001 C CNN
-	1    6150 4200
+L Connector_Generic:Conn_02x05_Odd_Even J_DATA1
+U 1 1 5C74C643
+P 6100 4350
+F 0 "J_DATA1" H 6150 4767 50  0000 C CNN
+F 1 "2x5_2.54mm" H 6150 4676 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 6100 4350 50  0001 C CNN
+F 3 "~" H 6100 4350 50  0001 C CNN
+	1    6100 4350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
