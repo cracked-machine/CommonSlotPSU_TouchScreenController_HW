@@ -5668,46 +5668,46 @@ Wire Wire Line
 Text Label 5250 3100 1    50   ~ 0
 GND
 Wire Wire Line
-	6900 4550 6400 4550
+	5400 4550 5900 4550
 Wire Wire Line
-	6900 4450 6400 4450
+	5400 4450 5900 4450
 Wire Wire Line
-	6900 4350 6400 4350
+	5400 4350 5900 4350
 Wire Wire Line
-	6900 4250 6400 4250
+	5400 4250 5900 4250
 Wire Wire Line
-	6900 4150 6400 4150
+	5400 4150 5900 4150
 Wire Wire Line
-	5900 4150 5400 4150
-Text Label 5400 4150 0    50   ~ 0
-PSON
+	6400 4150 6900 4150
 Text Label 6900 4150 2    50   ~ 0
+PSON
+Text Label 5400 4150 0    50   ~ 0
 ISHARE
-Text Label 6900 4250 2    50   ~ 0
+Text Label 5400 4250 0    50   ~ 0
 PSOK
-Text Label 6900 4350 2    50   ~ 0
+Text Label 5400 4350 0    50   ~ 0
 PRESENT
-Text Label 6900 4450 2    50   ~ 0
+Text Label 5400 4450 0    50   ~ 0
 12VSB
-Text Label 6900 4550 2    50   ~ 0
+Text Label 5400 4550 0    50   ~ 0
 PSINTERRUPT
 Wire Wire Line
-	5900 4450 5400 4450
+	6400 4450 6900 4450
 Wire Wire Line
-	5900 4350 5400 4350
+	6400 4350 6900 4350
 Wire Wire Line
-	5900 4250 5400 4250
-Text Label 5400 4450 0    50   ~ 0
+	6400 4250 6900 4250
+Text Label 6900 4450 2    50   ~ 0
 ADDR
 Wire Wire Line
-	5900 4550 5200 4550
+	6400 4550 7100 4550
 Wire Wire Line
-	5200 4850 5200 4550
-Text Label 5200 4850 1    50   ~ 0
+	7100 4850 7100 4550
+Text Label 7100 4850 1    50   ~ 0
 GND
-Text Label 5400 4250 0    50   ~ 0
+Text Label 6900 4250 2    50   ~ 0
 SDA
-Text Label 5400 4350 0    50   ~ 0
+Text Label 6900 4350 2    50   ~ 0
 SCL
 $Comp
 L Connector_Generic:Conn_01x06 J_VOUT1
@@ -5791,7 +5791,7 @@ U 1 1 5C74C643
 P 6100 4350
 F 0 "J_DATA1" H 6150 4767 50  0000 C CNN
 F 1 "2x5_2.54mm" H 6150 4676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6100 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" H 6100 4350 50  0001 C CNN
 F 3 "~" H 6100 4350 50  0001 C CNN
 	1    6100 4350
 	1    0    0    -1  

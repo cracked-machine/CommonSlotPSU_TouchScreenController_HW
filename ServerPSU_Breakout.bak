@@ -5791,7 +5791,7 @@ U 1 1 5C74C643
 P 6100 4350
 F 0 "J_DATA1" H 6150 4767 50  0000 C CNN
 F 1 "2x5_2.54mm" H 6150 4676 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical" H 6100 4350 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 6100 4350 50  0001 C CNN
 F 3 "~" H 6100 4350 50  0001 C CNN
 	1    6100 4350
 	1    0    0    -1  
