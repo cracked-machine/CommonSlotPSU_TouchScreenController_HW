@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ServerPSU_Breakout-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
@@ -5638,9 +5639,9 @@ Wire Wire Line
 	1200 4900 1200 4500
 Text Label 1200 4900 1    50   ~ 0
 GND
-Text Label 1400 4600 0    50   ~ 0
-SDA
 Text Label 1400 4700 0    50   ~ 0
+SDA
+Text Label 1400 4600 0    50   ~ 0
 SCL
 Wire Wire Line
 	2400 4700 3200 4700
