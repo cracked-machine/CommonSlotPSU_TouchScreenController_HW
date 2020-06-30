@@ -1,0 +1,422 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date "2020-06-30"
+Rev "C"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3900 2250 3700 2250
+Wire Wire Line
+	3900 2350 3700 2350
+Wire Wire Line
+	3900 2450 3700 2450
+Wire Wire Line
+	3900 2550 3700 2550
+Wire Wire Line
+	3900 2650 3700 2650
+Wire Wire Line
+	3900 2750 3700 2750
+Wire Wire Line
+	3900 2850 3700 2850
+Wire Wire Line
+	3900 2950 3700 2950
+Wire Wire Line
+	3900 3050 3700 3050
+Wire Wire Line
+	3900 3150 3700 3150
+Wire Wire Line
+	3900 3250 3700 3250
+Wire Wire Line
+	3900 3350 3700 3350
+Wire Wire Line
+	3900 3450 3700 3450
+Wire Wire Line
+	3900 3550 3700 3550
+Wire Wire Line
+	3900 3650 3700 3650
+Wire Wire Line
+	3900 3750 3700 3750
+Wire Wire Line
+	3900 3850 3700 3850
+Wire Wire Line
+	3900 3950 3700 3950
+Wire Wire Line
+	3900 4050 3700 4050
+Wire Wire Line
+	3900 4150 3700 4150
+Wire Wire Line
+	3900 4250 3700 4250
+Wire Wire Line
+	3900 4350 3700 4350
+Wire Wire Line
+	3900 4450 3700 4450
+Wire Wire Line
+	3900 4550 3700 4550
+Wire Wire Line
+	3900 4650 3700 4650
+Wire Wire Line
+	3900 4750 3700 4750
+Wire Wire Line
+	3900 4850 3400 4850
+Wire Wire Line
+	3900 5250 3400 5250
+Wire Wire Line
+	3900 5350 3400 5350
+Wire Wire Line
+	4600 2250 4400 2250
+Wire Wire Line
+	4600 2350 4400 2350
+Wire Wire Line
+	4600 2450 4400 2450
+Wire Wire Line
+	4600 2550 4400 2550
+Wire Wire Line
+	4600 2650 4400 2650
+Wire Wire Line
+	4600 2750 4400 2750
+Wire Wire Line
+	4600 2850 4400 2850
+Wire Wire Line
+	4600 2950 4400 2950
+Wire Wire Line
+	4600 3050 4400 3050
+Wire Wire Line
+	4600 3150 4400 3150
+Wire Wire Line
+	4600 3250 4400 3250
+Wire Wire Line
+	4600 3350 4400 3350
+Wire Wire Line
+	4600 3450 4400 3450
+Wire Wire Line
+	4600 3550 4400 3550
+Wire Wire Line
+	4600 3650 4400 3650
+Wire Wire Line
+	4600 3750 4400 3750
+Wire Wire Line
+	4600 3850 4400 3850
+Wire Wire Line
+	4600 3950 4400 3950
+Wire Wire Line
+	4600 4050 4400 4050
+Wire Wire Line
+	4600 4150 4400 4150
+Wire Wire Line
+	4600 4250 4400 4250
+Wire Wire Line
+	4600 4350 4400 4350
+Wire Wire Line
+	4600 4450 4400 4450
+Wire Wire Line
+	4600 4550 4400 4550
+Wire Wire Line
+	4600 4650 4400 4650
+Wire Wire Line
+	4600 4750 4400 4750
+Wire Wire Line
+	5200 4950 4400 4950
+Wire Wire Line
+	5200 5050 4400 5050
+Wire Wire Line
+	3700 2250 3700 2350
+Connection ~ 3700 2350
+Wire Wire Line
+	3700 2350 3700 2450
+Connection ~ 3700 2450
+Wire Wire Line
+	3700 2450 3700 2550
+Connection ~ 3700 2550
+Wire Wire Line
+	3700 2550 3700 2650
+Connection ~ 3700 2650
+Wire Wire Line
+	3700 2650 3700 2750
+Connection ~ 3700 2750
+Wire Wire Line
+	3700 2750 3700 2850
+Connection ~ 3700 2850
+Wire Wire Line
+	3700 2850 3700 2950
+Connection ~ 3700 2950
+Wire Wire Line
+	3700 2950 3700 3050
+Connection ~ 3700 3050
+Wire Wire Line
+	3700 3050 3700 3150
+Connection ~ 3700 3150
+Wire Wire Line
+	3700 3150 3700 3250
+Connection ~ 3700 3250
+Wire Wire Line
+	3700 3250 3700 3350
+Connection ~ 3700 3350
+Wire Wire Line
+	3700 3350 3700 3450
+Wire Wire Line
+	4600 2250 4600 2350
+Connection ~ 4600 2350
+Wire Wire Line
+	4600 2350 4600 2450
+Connection ~ 4600 2450
+Wire Wire Line
+	4600 2450 4600 2550
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2550 4600 2650
+Connection ~ 4600 2650
+Wire Wire Line
+	4600 2650 4600 2750
+Connection ~ 4600 2750
+Wire Wire Line
+	4600 2750 4600 2850
+Connection ~ 4600 2850
+Wire Wire Line
+	4600 2850 4600 2950
+Connection ~ 4600 2950
+Wire Wire Line
+	4600 2950 4600 3050
+Connection ~ 4600 3050
+Wire Wire Line
+	4600 3050 4600 3150
+Connection ~ 4600 3150
+Wire Wire Line
+	4600 3150 4600 3250
+Connection ~ 4600 3250
+Wire Wire Line
+	4600 3250 4600 3350
+Wire Wire Line
+	4600 3350 4600 3450
+Connection ~ 4600 3350
+Wire Wire Line
+	3700 2750 3200 2750
+Wire Wire Line
+	4600 2750 4975 2750
+Wire Wire Line
+	3700 3550 3700 3650
+Connection ~ 3700 3650
+Wire Wire Line
+	3700 3650 3700 3750
+Connection ~ 3700 3750
+Wire Wire Line
+	3700 3750 3700 3850
+Connection ~ 3700 3850
+Wire Wire Line
+	3700 3850 3700 3950
+Connection ~ 3700 3950
+Wire Wire Line
+	3700 3950 3700 4050
+Connection ~ 3700 4050
+Wire Wire Line
+	3700 4050 3700 4150
+Connection ~ 3700 4150
+Wire Wire Line
+	3700 4150 3700 4250
+Connection ~ 3700 4250
+Wire Wire Line
+	3700 4250 3700 4350
+Connection ~ 3700 4350
+Wire Wire Line
+	3700 4350 3700 4450
+Connection ~ 3700 4450
+Wire Wire Line
+	3700 4450 3700 4550
+Connection ~ 3700 4550
+Wire Wire Line
+	3700 4550 3700 4650
+Connection ~ 3700 4650
+Wire Wire Line
+	3700 4650 3700 4750
+Wire Wire Line
+	4600 3550 4600 3650
+Connection ~ 4600 3650
+Wire Wire Line
+	4600 3650 4600 3750
+Connection ~ 4600 3750
+Wire Wire Line
+	4600 3750 4600 3850
+Connection ~ 4600 3850
+Wire Wire Line
+	4600 3850 4600 3950
+Connection ~ 4600 3950
+Wire Wire Line
+	4600 3950 4600 4050
+Connection ~ 4600 4050
+Wire Wire Line
+	4600 4050 4600 4150
+Connection ~ 4600 4150
+Wire Wire Line
+	4600 4150 4600 4250
+Connection ~ 4600 4250
+Wire Wire Line
+	4600 4250 4600 4350
+Connection ~ 4600 4350
+Wire Wire Line
+	4600 4350 4600 4450
+Connection ~ 4600 4450
+Wire Wire Line
+	4600 4450 4600 4550
+Connection ~ 4600 4550
+Wire Wire Line
+	4600 4550 4600 4650
+Connection ~ 4600 4650
+Wire Wire Line
+	4600 4650 4600 4750
+Wire Wire Line
+	5650 4050 5650 4250
+Wire Wire Line
+	3700 4050 3200 4050
+Wire Wire Line
+	3200 4050 3200 4300
+Wire Wire Line
+	3900 5150 2475 5150
+Wire Wire Line
+	2475 5550 2475 5150
+Wire Wire Line
+	4400 5350 5200 5350
+Text Label 5200 5350 2    50   ~ 0
+PSON
+Wire Wire Line
+	3900 4950 3400 4950
+Wire Wire Line
+	3400 5050 3900 5050
+$Comp
+L Connector_Generic:Conn_02x32_Counter_Clockwise J_PSU_IN?
+U 1 1 5EFF4B1B
+P 4100 3750
+AR Path="/5EFF4B1B" Ref="J_PSU_IN?"  Part="1" 
+AR Path="/5EFF0F4B/5EFF4B1B" Ref="J_PSU_IN1"  Part="1" 
+F 0 "J_PSU_IN1" H 4100 5450 50  0000 C CNN
+F 1 "Amphenol FCI 10046971-001LF" H 4150 5375 50  0001 C CNN
+F 2 "Amphenol FCI 10046971-001LF_2x32:Amphenol_FCI_10046971-001LF_2x32" H 4100 3750 50  0001 C CNN
+F 3 "~" H 4100 3750 50  0001 C CNN
+	1    4100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5150 5200 5150
+Text Label 5200 5150 2    50   ~ 0
+PSOK
+$Comp
+L power:GNDS #PWR02
+U 1 1 5EFFC43E
+P 3200 4300
+F 0 "#PWR02" H 3200 4050 50  0001 C CNN
+F 1 "GNDS" H 3205 4127 50  0000 C CNN
+F 2 "" H 3200 4300 50  0001 C CNN
+F 3 "" H 3200 4300 50  0001 C CNN
+	1    3200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR03
+U 1 1 5EFFD2BA
+P 5650 4250
+F 0 "#PWR03" H 5650 4000 50  0001 C CNN
+F 1 "GNDS" H 5655 4077 50  0000 C CNN
+F 2 "" H 5650 4250 50  0001 C CNN
+F 3 "" H 5650 4250 50  0001 C CNN
+	1    5650 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR01
+U 1 1 5EFFE674
+P 2475 5550
+F 0 "#PWR01" H 2475 5300 50  0001 C CNN
+F 1 "GNDS" H 2480 5377 50  0000 C CNN
+F 2 "" H 2475 5550 50  0001 C CNN
+F 3 "" H 2475 5550 50  0001 C CNN
+	1    2475 5550
+	1    0    0    -1  
+$EndComp
+Text HLabel 5100 2750 2    50   Input ~ 0
+PSU_VBUS
+Text HLabel 3200 2750 0    50   Input ~ 0
+PSU_VBUS
+Text HLabel 3400 4850 0    50   Input ~ 0
+PSU_ADDR2
+Text HLabel 3400 4950 0    50   Input ~ 0
+PSU_ADDR1
+Text HLabel 3400 5050 0    50   Input ~ 0
+PSU_ADDR0
+Text HLabel 5200 4950 2    50   Input ~ 0
+PSU_12VSB
+Text HLabel 5200 5350 2    50   Input ~ 0
+PSU_VDD_SW
+Text HLabel 5200 5050 2    50   Input ~ 0
+PSU_VSS_SW
+Text HLabel 5200 5150 2    50   Input ~ 0
+PSU_PSOK
+Text HLabel 3400 5250 0    50   Input ~ 0
+PSU_SDA
+Text HLabel 3400 5350 0    50   Input ~ 0
+PSU_SCL
+Wire Wire Line
+	4400 5250 5200 5250
+Text HLabel 5200 5250 2    50   Input ~ 0
+PSU_ISENSE
+Text Notes 5875 5175 0    50   ~ 0
+0-3V3
+Text Notes 5875 5375 0    50   ~ 0
+Power Supply on/off control signal
+Text Notes 5875 5275 0    50   ~ 0
+60.15mV/Amp
+Text Label 5200 5250 2    50   ~ 0
+IMONITOR
+Text Label 5200 5050 2    50   ~ 0
+PRESENT
+Text Label 5200 4950 2    50   ~ 0
+12VSB
+Wire Wire Line
+	4400 4850 5200 4850
+Text HLabel 5200 4850 2    50   Input ~ 0
+PSU_INTERRUPT
+Text Label 5200 4850 2    50   ~ 0
+PSINTERRUPT
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F12587F
+P 5050 2650
+F 0 "#FLG0101" H 5050 2725 50  0001 C CNN
+F 1 "PWR_FLAG" V 5050 2778 50  0000 L CNN
+F 2 "" H 5050 2650 50  0001 C CNN
+F 3 "~" H 5050 2650 50  0001 C CNN
+	1    5050 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2650 4975 2650
+Wire Wire Line
+	4975 2650 4975 2750
+Connection ~ 4975 2750
+Wire Wire Line
+	4975 2750 5100 2750
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F12B094
+P 5325 4225
+F 0 "#FLG0102" H 5325 4300 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 4425 50  0000 L CNN
+F 2 "" H 5325 4225 50  0001 C CNN
+F 3 "~" H 5325 4225 50  0001 C CNN
+	1    5325 4225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5325 4225 5325 4050
+Connection ~ 5325 4050
+Wire Wire Line
+	5325 4050 5650 4050
+Wire Wire Line
+	4600 4050 5325 4050
+$EndSCHEMATC
