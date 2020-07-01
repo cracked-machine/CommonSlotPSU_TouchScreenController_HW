@@ -100,7 +100,7 @@ NRST
 Wire Wire Line
 	5250 2800 5775 2800
 Text HLabel 5775 2800 2    50   Input ~ 0
-MCU_ISENSE
+MCU_IMON
 Wire Wire Line
 	5250 2900 5775 2900
 Text HLabel 5775 2900 2    50   Input ~ 0
@@ -186,10 +186,6 @@ Wire Wire Line
 	4150 4100 3250 4100
 Text HLabel 3250 4100 0    50   Input ~ 0
 SMBUS_SMBA
-Wire Wire Line
-	4150 4000 3250 4000
-Text HLabel 3250 4000 0    50   Input ~ 0
-SMBUS_INT
 Wire Wire Line
 	5775 3600 5250 3600
 Wire Wire Line

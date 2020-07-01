@@ -352,9 +352,9 @@ PSU_ADDR0
 Text HLabel 5200 4950 2    50   Input ~ 0
 PSU_12VSB
 Text HLabel 5200 5350 2    50   Input ~ 0
-PSU_VDD_SW
+PSU_ON
 Text HLabel 5200 5050 2    50   Input ~ 0
-PSU_VSS_SW
+PSU_PRES
 Text HLabel 5200 5150 2    50   Input ~ 0
 PSU_PSOK
 Text HLabel 3400 5250 0    50   Input ~ 0
@@ -364,7 +364,7 @@ PSU_SCL
 Wire Wire Line
 	4400 5250 5200 5250
 Text HLabel 5200 5250 2    50   Input ~ 0
-PSU_ISENSE
+PSU_IMON
 Text Notes 5875 5175 0    50   ~ 0
 0-3V3
 Text Notes 5875 5375 0    50   ~ 0
@@ -380,7 +380,7 @@ Text Label 5200 4950 2    50   ~ 0
 Wire Wire Line
 	4400 4850 5200 4850
 Text HLabel 5200 4850 2    50   Input ~ 0
-PSU_INTERRUPT
+PSU_INT
 Text Label 5200 4850 2    50   ~ 0
 PSINTERRUPT
 $Comp
