@@ -287,24 +287,24 @@ T_IRQ
 Text Label 4900 3250 2    50   ~ 0
 TFT_MISO
 Wire Wire Line
-	4050 5350 4900 5350
+	4050 5650 4900 5650
 Wire Wire Line
 	4050 4450 4900 4450
 Wire Wire Line
-	4050 5450 4900 5450
+	4050 5850 4900 5850
 Wire Wire Line
-	4050 5550 4900 5550
+	4050 5750 4900 5750
 Wire Wire Line
-	4050 4550 4900 4550
-Text Label 4900 5350 2    50   ~ 0
+	2650 4950 1800 4950
+Text Label 4900 5650 2    50   ~ 0
 T_CLK
 Text Label 4900 4450 2    50   ~ 0
 T_CS
-Text Label 4900 5450 2    50   ~ 0
+Text Label 4900 5850 2    50   ~ 0
 T_DIN
-Text Label 4900 5550 2    50   ~ 0
+Text Label 4900 5750 2    50   ~ 0
 T_OUT
-Text Label 4900 4550 2    50   ~ 0
+Text Label 1800 4950 0    50   ~ 0
 T_IRQ
 NoConn ~ 4050 2950
 NoConn ~ 4050 3050
@@ -318,15 +318,12 @@ NoConn ~ 4050 4650
 NoConn ~ 4050 4750
 NoConn ~ 4050 5150
 NoConn ~ 4050 5250
-NoConn ~ 4050 5650
-NoConn ~ 4050 5750
-NoConn ~ 4050 5850
 NoConn ~ 2650 5450
 NoConn ~ 2650 5350
 NoConn ~ 2650 5250
 NoConn ~ 2650 5150
 NoConn ~ 2650 5050
-NoConn ~ 2650 4950
+NoConn ~ 4050 4550
 NoConn ~ 2650 4650
 NoConn ~ 2650 4550
 NoConn ~ 2650 4450
@@ -526,4 +523,7 @@ Wire Wire Line
 Text HLabel 4800 2850 2    50   Input ~ 0
 MCU_SW
 NoConn ~ 2650 5550
+NoConn ~ 4050 5350
+NoConn ~ 4050 5450
+NoConn ~ 4050 5550
 $EndSCHEMATC
