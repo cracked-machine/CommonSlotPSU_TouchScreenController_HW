@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MIC155x)(type Legacy)(uri ${KIPRJMOD}/../KicadLibrary/symbol/TIMER/MIC155x.lib)(options "")(descr ""))
+)

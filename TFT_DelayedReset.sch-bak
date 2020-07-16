@@ -47,79 +47,6 @@ Wire Wire Line
 Wire Wire Line
 	2725 4125 2575 4125
 $Comp
-L Timer:LM555xM U?
-U 1 1 5F17E9A0
-P 4250 4325
-AR Path="/5F02F4E9/5F17E9A0" Ref="U?"  Part="1" 
-AR Path="/5F02F4E9/5F1755C4/5F17E9A0" Ref="U4"  Part="1" 
-F 0 "U4" H 3900 4825 50  0000 C CNN
-F 1 "LM555xM" H 3900 4725 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5100 3925 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm555.pdf" H 5100 3925 50  0001 C CNN
-	1    4250 4325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3750 4125 2725 4125
-Connection ~ 2725 4125
-Wire Wire Line
-	4250 3925 4250 3425
-Wire Wire Line
-	4250 4725 4250 4775
-Wire Wire Line
-	4750 4325 4900 4325
-Wire Wire Line
-	4900 4325 4900 4525
-Wire Wire Line
-	4900 4525 4750 4525
-$Comp
-L Device:R R?
-U 1 1 5F17E9AF
-P 5500 4325
-AR Path="/5F02F4E9/5F17E9AF" Ref="R?"  Part="1" 
-AR Path="/5F02F4E9/5F1755C4/5F17E9AF" Ref="R5"  Part="1" 
-F 0 "R5" V 5400 4200 50  0000 L CNN
-F 1 "1Meg" V 5400 4325 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5430 4325 50  0001 C CNN
-F 3 "~" H 5500 4325 50  0001 C CNN
-	1    5500 4325
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F17E9B5
-P 5500 4525
-AR Path="/5F02F4E9/5F17E9B5" Ref="C?"  Part="1" 
-AR Path="/5F02F4E9/5F1755C4/5F17E9B5" Ref="C7"  Part="1" 
-F 0 "C7" V 5650 4425 50  0000 C CNN
-F 1 "2.2uF" V 5650 4650 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5538 4375 50  0001 C CNN
-F 3 "~" H 5500 4525 50  0001 C CNN
-	1    5500 4525
-	0    1    1    0   
-$EndComp
-Connection ~ 4900 4525
-Wire Wire Line
-	5825 4675 5825 4525
-Wire Wire Line
-	5825 4325 5650 4325
-NoConn ~ 3750 4325
-Wire Wire Line
-	3500 4525 3750 4525
-Wire Wire Line
-	4900 4325 5350 4325
-Wire Wire Line
-	4750 4125 5250 4125
-Wire Wire Line
-	5825 4325 5825 4100
-Wire Wire Line
-	5250 4125 5250 3250
-Connection ~ 4900 4325
-Wire Wire Line
-	5825 4525 5650 4525
-Wire Wire Line
-	4900 4525 5350 4525
-$Comp
 L Transistor_BJT:MMBT3904 Q2
 U 1 1 5F1A1D4A
 P 7325 2500
@@ -204,8 +131,6 @@ Wire Wire Line
 Wire Wire Line
 	8425 4100 6225 4100
 Wire Wire Line
-	6225 4100 6225 3250
-Wire Wire Line
 	9125 4100 10175 4100
 Wire Wire Line
 	9125 2050 10175 2050
@@ -213,26 +138,16 @@ Text HLabel 10550 2975 2    50   Input ~ 0
 TFT_VDD_OUT
 Text HLabel 1625 4025 0    50   Input ~ 0
 NRST_IN
-Text HLabel 4250 3425 1    50   Input ~ 0
-TFTRST_5V
 Text HLabel 7425 1600 1    50   Input ~ 0
 TFTRST_5V
 Text HLabel 8725 1550 1    50   Input ~ 0
 TFTRST_5V
 Text HLabel 8725 3600 1    50   Input ~ 0
 TFTRST_5V
-Text HLabel 5825 4100 1    50   Input ~ 0
-TFTRST_5V
 Wire Wire Line
 	8425 2050 8125 2050
 Wire Wire Line
 	8125 2050 8125 2200
-Text HLabel 3500 4525 0    50   Input ~ 0
-TFTRST_5V
-Text HLabel 4250 4775 3    50   Input ~ 0
-TFTRST_GND
-Text HLabel 5825 4675 3    50   Input ~ 0
-TFTRST_GND
 Text HLabel 8725 4600 3    50   Input ~ 0
 TFTRST_GND
 Text HLabel 7425 2825 3    50   Input ~ 0
@@ -297,50 +212,120 @@ Wire Wire Line
 $Comp
 L Device:C C13
 U 1 1 5F110F71
-P 9625 5300
-F 0 "C13" H 9740 5346 50  0000 L CNN
-F 1 "100nF" H 9740 5255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9663 5150 50  0001 C CNN
-F 3 "~" H 9625 5300 50  0001 C CNN
-	1    9625 5300
+P 7775 5325
+F 0 "C13" H 7890 5371 50  0000 L CNN
+F 1 "100nF" H 7890 5280 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7813 5175 50  0001 C CNN
+F 3 "~" H 7775 5325 50  0001 C CNN
+	1    7775 5325
 	1    0    0    -1  
 $EndComp
-Text HLabel 9625 5025 1    50   Input ~ 0
+Text HLabel 7775 5050 1    50   Input ~ 0
 TFTRST_5V
 Wire Wire Line
-	9625 5025 9625 5100
-Text HLabel 9625 5600 3    50   Input ~ 0
+	7775 5050 7775 5125
+Text HLabel 7775 5625 3    50   Input ~ 0
 TFTRST_GND
 Wire Wire Line
-	9625 5600 9625 5525
+	7775 5625 7775 5550
 $Comp
 L Device:C C12
 U 1 1 5F1118A1
-P 9375 5300
-F 0 "C12" H 9261 5254 50  0000 R CNN
-F 1 "100nF" H 9261 5345 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9413 5150 50  0001 C CNN
-F 3 "~" H 9375 5300 50  0001 C CNN
-	1    9375 5300
+P 7525 5325
+F 0 "C12" H 7411 5279 50  0000 R CNN
+F 1 "100nF" H 7411 5370 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7563 5175 50  0001 C CNN
+F 3 "~" H 7525 5325 50  0001 C CNN
+	1    7525 5325
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9375 5150 9375 5100
+	7525 5175 7525 5125
 Wire Wire Line
-	9375 5100 9625 5100
-Connection ~ 9625 5100
+	7525 5125 7775 5125
+Connection ~ 7775 5125
 Wire Wire Line
-	9625 5100 9625 5150
+	7775 5125 7775 5175
 Wire Wire Line
-	9375 5525 9625 5525
+	7525 5550 7775 5550
 Wire Wire Line
-	9375 5450 9375 5525
-Connection ~ 9625 5525
+	7525 5475 7525 5550
+Connection ~ 7775 5550
 Wire Wire Line
-	9625 5525 9625 5450
+	7775 5550 7775 5475
+$Comp
+L MIC155x:MIC1555-YM5 U?
+U 1 1 5F11D4BD
+P 4125 4125
+F 0 "U?" H 4125 4540 50  0000 C CNN
+F 1 "MIC1555-YM5" H 4125 4449 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 4025 4125 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic1555.pdf" H 4025 4125 50  0001 C CNN
+	1    4125 4125
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5250 3250 6225 3250
-Connection ~ 6225 3250
+	3775 3975 3500 3975
 Wire Wire Line
-	6225 3250 6225 2500
+	3500 3975 3500 3850
+Text HLabel 3500 3850 1    50   Input ~ 0
+TFTRST_5V
+Text HLabel 3500 4425 3    50   Input ~ 0
+TFTRST_GND
+Wire Wire Line
+	3775 4275 3500 4275
+Wire Wire Line
+	3500 4275 3500 4425
+$Comp
+L Device:C C?
+U 1 1 5F127B66
+P 5050 4575
+AR Path="/5F02F4E9/5F127B66" Ref="C?"  Part="1" 
+AR Path="/5F02F4E9/5F1755C4/5F127B66" Ref="C?"  Part="1" 
+F 0 "C?" H 5275 4550 50  0000 C CNN
+F 1 "2.2uF" H 5275 4650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5088 4425 50  0001 C CNN
+F 3 "~" H 5050 4575 50  0001 C CNN
+	1    5050 4575
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F128999
+P 5050 3975
+AR Path="/5F02F4E9/5F128999" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F1755C4/5F128999" Ref="R?"  Part="1" 
+F 0 "R?" V 4950 3850 50  0000 L CNN
+F 1 "1Meg" V 4950 3975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 3975 50  0001 C CNN
+F 3 "~" H 5050 3975 50  0001 C CNN
+	1    5050 3975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4475 3975 4675 3975
+Wire Wire Line
+	4675 3975 4675 3275
+Wire Wire Line
+	4675 3275 5050 3275
+Wire Wire Line
+	4475 4275 5050 4275
+Wire Wire Line
+	5050 4275 5050 4125
+Wire Wire Line
+	5050 3825 5050 3275
+Connection ~ 5050 3275
+Wire Wire Line
+	5050 3275 6225 3275
+Wire Wire Line
+	5050 4425 5050 4275
+Connection ~ 5050 4275
+Wire Wire Line
+	6225 2500 6225 3275
+Wire Wire Line
+	3775 4125 2725 4125
+Connection ~ 2725 4125
+Connection ~ 6225 3275
+Wire Wire Line
+	6225 3275 6225 4100
 $EndSCHEMATC
