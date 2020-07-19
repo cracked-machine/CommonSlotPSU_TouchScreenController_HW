@@ -671,4 +671,38 @@ $EndComp
 Wire Wire Line
 	14025 5950 13825 5950
 Connection ~ 13825 5950
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5F271D97
+P 14650 5100
+AR Path="/5F02F4E9/5F271D97" Ref="TP22"  Part="1" 
+AR Path="/5EFF0F4B/5F271D97" Ref="TP?"  Part="1" 
+F 0 "TP22" H 14708 5218 50  0000 L CNN
+F 1 "TestPoint" H 14708 5127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14850 5100 50  0001 C CNN
+F 3 "~" H 14850 5100 50  0001 C CNN
+	1    14650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5F275A4B
+P 15150 5100
+AR Path="/5F02F4E9/5F275A4B" Ref="TP23"  Part="1" 
+AR Path="/5EFF0F4B/5F275A4B" Ref="TP?"  Part="1" 
+F 0 "TP23" H 15208 5218 50  0000 L CNN
+F 1 "TestPoint" H 15208 5127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 15350 5100 50  0001 C CNN
+F 3 "~" H 15350 5100 50  0001 C CNN
+	1    15150 5100
+	1    0    0    -1  
+$EndComp
+Text Label 14650 5425 1    50   ~ 0
+SWCLK
+Wire Wire Line
+	14650 5100 14650 5425
+Text Label 15150 5425 1    50   ~ 0
+SWDIO
+Wire Wire Line
+	15150 5100 15150 5425
 $EndSCHEMATC

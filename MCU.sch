@@ -49,7 +49,7 @@ F 3 "~" H 12050 5950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12250 5750 12650 5750
+	12250 5750 13275 5750
 Wire Wire Line
 	12250 6050 12650 6050
 Wire Wire Line
@@ -439,7 +439,7 @@ Wire Wire Line
 	12775 7575 13250 7575
 Text Notes 12775 2075 0    50   ~ 0
 TOUCHSCREEN TFT LCD
-Text Notes 12250 5400 0    50   ~ 0
+Text Notes 11375 5975 0    50   ~ 0
 ICP SOCKET
 Wire Wire Line
 	6100 4600 6200 4600
@@ -485,11 +485,10 @@ NoConn ~ 6700 8200
 NoConn ~ 6700 8300
 NoConn ~ 6700 7300
 $Sheet
-S 9450 2825 1375 1050
+S 9450 2825 1375 700 
 U 5F1755C4
 F0 "TFT_DelayedReset" 50
 F1 "TFT_DelayedReset.sch" 50
-F2 "TFTRST_GND" I L 9450 3700 50 
 F3 "TFTRST_5V" I L 9450 3000 50 
 F4 "TFT_VDD_OUT" I R 10825 3000 50 
 F5 "NRST_IN" I L 9450 3350 50 
@@ -507,15 +506,11 @@ Wire Wire Line
 Connection ~ 11675 3000
 Wire Wire Line
 	11675 3000 13525 3000
-Wire Wire Line
-	9450 3700 9025 3700
-Wire Wire Line
-	9025 3700 9025 3975
 Text HLabel 11775 7500 1    50   Input ~ 0
 MCU_3V3
 Text HLabel 8700 7150 1    50   Input ~ 0
 MCU_3V3
-Text HLabel 12650 5750 2    50   Input ~ 0
+Text HLabel 13400 5750 2    50   Input ~ 0
 MCU_3V3
 Wire Wire Line
 	9450 3000 8700 3000
@@ -599,18 +594,18 @@ F 3 "" H 11775 8050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13000 5950 13000 6325
+	13825 5950 13825 6325
 Wire Wire Line
-	12250 5950 13000 5950
+	12250 5950 13825 5950
 $Comp
 L power:GNDS #PWR010
 U 1 1 5F506D40
-P 13000 6325
-F 0 "#PWR010" H 13000 6075 50  0001 C CNN
-F 1 "GNDS" H 13005 6152 50  0000 C CNN
-F 2 "" H 13000 6325 50  0001 C CNN
-F 3 "" H 13000 6325 50  0001 C CNN
-	1    13000 6325
+P 13825 6325
+F 0 "#PWR010" H 13825 6075 50  0001 C CNN
+F 1 "GNDS" H 13830 6152 50  0000 C CNN
+F 2 "" H 13825 6325 50  0001 C CNN
+F 3 "" H 13825 6325 50  0001 C CNN
+	1    13825 6325
 	1    0    0    -1  
 $EndComp
 Text HLabel 2225 2800 0    50   Input ~ 0
@@ -644,17 +639,70 @@ Wire Wire Line
 	12275 2550 12275 2400
 Wire Wire Line
 	12275 2400 13525 2400
-$Comp
-L power:GNDS #PWR0103
-U 1 1 5F5B050D
-P 9025 3975
-F 0 "#PWR0103" H 9025 3725 50  0001 C CNN
-F 1 "GNDS" H 9030 3802 50  0000 C CNN
-F 2 "" H 9025 3975 50  0001 C CNN
-F 3 "" H 9025 3975 50  0001 C CNN
-	1    9025 3975
-	1    0    0    -1  
-$EndComp
 Text Notes 11200 2075 0    50   ~ 0
 Connect JP1 when\nTFT_DelayedReset\n is not required\n
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F16AD63
+P 13275 5500
+F 0 "TP1" H 13333 5618 50  0000 L CNN
+F 1 "TestPoint" H 13333 5527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 13475 5500 50  0001 C CNN
+F 3 "~" H 13475 5500 50  0001 C CNN
+	1    13275 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13275 5500 13275 5750
+Connection ~ 13275 5750
+Wire Wire Line
+	13275 5750 13400 5750
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F170479
+P 14025 5950
+F 0 "TP2" V 13950 6025 50  0000 L CNN
+F 1 "TestPoint" V 14125 6000 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14225 5950 50  0001 C CNN
+F 3 "~" H 14225 5950 50  0001 C CNN
+	1    14025 5950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14025 5950 13825 5950
+Connection ~ 13825 5950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F271D97
+P 14650 5100
+AR Path="/5F02F4E9/5F271D97" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F271D97" Ref="TP?"  Part="1" 
+F 0 "TP?" H 14708 5218 50  0000 L CNN
+F 1 "TestPoint" H 14708 5127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14850 5100 50  0001 C CNN
+F 3 "~" H 14850 5100 50  0001 C CNN
+	1    14650 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F275A4B
+P 15150 5100
+AR Path="/5F02F4E9/5F275A4B" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F275A4B" Ref="TP?"  Part="1" 
+F 0 "TP?" H 15208 5218 50  0000 L CNN
+F 1 "TestPoint" H 15208 5127 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 15350 5100 50  0001 C CNN
+F 3 "~" H 15350 5100 50  0001 C CNN
+	1    15150 5100
+	1    0    0    -1  
+$EndComp
+Text Label 14650 5425 1    50   ~ 0
+SWCLK
+Wire Wire Line
+	14650 5100 14650 5425
+Text Label 15150 5425 1    50   ~ 0
+SWDIO
+Wire Wire Line
+	15150 5100 15150 5425
 $EndSCHEMATC
