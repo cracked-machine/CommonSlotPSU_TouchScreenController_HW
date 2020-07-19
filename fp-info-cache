@@ -1,4 +1,4 @@
-18368389078038496
+18369984278420496
 Amphenol FCI 10046971-001LF_2x32
 Amphenol_FCI_10046971-001LF_2x32
 Through hole straight socket strip, 2x32, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
@@ -51590,7 +51590,14 @@ heatsink
 2
 1
 ILI9341_TFTLCD
-ILI9341_ResitiveTouch_TFTLCD_2.8inch_85mm_50mm
+ILI9341_ResitiveTouch_TFTLCD_2.8inch_85mm_50mm_FrontMount
+
+
+0
+14
+14
+ILI9341_TFTLCD
+ILI9341_ResitiveTouch_TFTLCD_2.8inch_85mm_50mm_RearMount
 2.8" 85mm x 50mm
 
 0

@@ -133,8 +133,8 @@ SMBUS_SCL
 Wire Wire Line
 	9000 7800 8850 7800
 Wire Wire Line
-	6700 7700 7750 7700
-Text HLabel 7750 7700 2    50   Input ~ 0
+	6700 7700 6975 7700
+Text HLabel 6975 7700 2    50   Input ~ 0
 SMBUS_SMBA
 $Comp
 L Device:R R1
@@ -219,7 +219,7 @@ U 1 1 5F024FEF
 P 13725 2900
 F 0 "J2" H 13805 2892 50  0000 L CNN
 F 1 "Conn_01x14" H 13805 2801 50  0000 L CNN
-F 2 "ILI9341_TFTLCD:ILI9341_ResitiveTouch_TFTLCD_2.8inch_85mm_50mm" H 13725 2900 50  0001 C CNN
+F 2 "ILI9341_TFTLCD:ILI9341_ResitiveTouch_TFTLCD_2.8inch_85mm_50mm_FrontMount" H 13725 2900 50  0001 C CNN
 F 3 "~" H 13725 2900 50  0001 C CNN
 	1    13725 2900
 	1    0    0    -1  
@@ -259,7 +259,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 8600 7550 8600
 Wire Wire Line
-	5300 7800 4450 7800
+	5300 7800 4775 7800
 Text Label 7550 8500 2    50   ~ 0
 TS_SCK
 Text Label 7550 8400 2    50   ~ 0
@@ -268,7 +268,7 @@ Text Label 7550 8700 2    50   ~ 0
 TS_MOSI
 Text Label 7550 8600 2    50   ~ 0
 TS_MISO
-Text Label 4450 7800 0    50   ~ 0
+Text Label 4775 7800 0    50   ~ 0
 TS_IRQ
 NoConn ~ 6700 5800
 NoConn ~ 6700 5900
@@ -278,7 +278,7 @@ NoConn ~ 6700 6500
 NoConn ~ 6700 6600
 NoConn ~ 6700 6700
 NoConn ~ 6700 7000
-NoConn ~ 6700 7500
+NoConn ~ 6700 5700
 NoConn ~ 6700 7600
 NoConn ~ 6700 8000
 NoConn ~ 6700 8100
@@ -477,8 +477,8 @@ Connection ~ 11100 7475
 Wire Wire Line
 	11100 7475 11100 7625
 Wire Wire Line
-	6700 5700 7450 5700
-Text HLabel 7450 5700 2    50   Input ~ 0
+	6700 7500 6975 7500
+Text HLabel 6975 7500 2    50   Input ~ 0
 MCU_SW_OUT
 NoConn ~ 5300 8400
 NoConn ~ 6700 8200

@@ -112,8 +112,6 @@ Text HLabel 3275 2125 1    50   Input ~ 0
 TFTRST_5V
 Wire Wire Line
 	3550 2550 3275 2550
-Wire Wire Line
-	3275 2550 3275 2975
 $Comp
 L Device:C C?
 U 1 1 5F127B66
@@ -2975,25 +2973,6 @@ Wire Wire Line
 Connection ~ 2425 2400
 Wire Wire Line
 	2425 2400 2100 2400
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5F1CD729
-P 2425 2750
-AR Path="/5F02F4E9/5F1CD729" Ref="TP?"  Part="1" 
-AR Path="/5EFF0F4B/5F1CD729" Ref="TP?"  Part="1" 
-AR Path="/5F02F4E9/5F1755C4/5F1CD729" Ref="TP10"  Part="1" 
-F 0 "TP10" H 2483 2868 50  0000 L CNN
-F 1 "TestPoint" H 2483 2777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2625 2750 50  0001 C CNN
-F 3 "~" H 2625 2750 50  0001 C CNN
-	1    2425 2750
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2425 2750 2425 2975
-Wire Wire Line
-	2425 2975 3275 2975
-Connection ~ 3275 2975
-Wire Wire Line
-	3275 2975 3275 3200
+	3275 2550 3275 3200
 $EndSCHEMATC
