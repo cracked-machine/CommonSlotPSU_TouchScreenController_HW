@@ -219,7 +219,7 @@ U 1 1 5F024FEF
 P 13725 2900
 F 0 "J2" H 13805 2892 50  0000 L CNN
 F 1 "Conn_01x14" H 13805 2801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x14_P2.54mm_Vertical" H 13725 2900 50  0001 C CNN
+F 2 "ILI9341_TFTLCD:ILI9341_ResitiveTouch_TFTLCD_2.8inch_85mm_50mm" H 13725 2900 50  0001 C CNN
 F 3 "~" H 13725 2900 50  0001 C CNN
 	1    13725 2900
 	1    0    0    -1  
@@ -672,12 +672,12 @@ Wire Wire Line
 	14025 5950 13825 5950
 Connection ~ 13825 5950
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP22
 U 1 1 5F271D97
 P 14650 5100
-AR Path="/5F02F4E9/5F271D97" Ref="TP?"  Part="1" 
+AR Path="/5F02F4E9/5F271D97" Ref="TP22"  Part="1" 
 AR Path="/5EFF0F4B/5F271D97" Ref="TP?"  Part="1" 
-F 0 "TP?" H 14708 5218 50  0000 L CNN
+F 0 "TP22" H 14708 5218 50  0000 L CNN
 F 1 "TestPoint" H 14708 5127 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 14850 5100 50  0001 C CNN
 F 3 "~" H 14850 5100 50  0001 C CNN
@@ -685,12 +685,12 @@ F 3 "~" H 14850 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP23
 U 1 1 5F275A4B
 P 15150 5100
-AR Path="/5F02F4E9/5F275A4B" Ref="TP?"  Part="1" 
+AR Path="/5F02F4E9/5F275A4B" Ref="TP23"  Part="1" 
 AR Path="/5EFF0F4B/5F275A4B" Ref="TP?"  Part="1" 
-F 0 "TP?" H 15208 5218 50  0000 L CNN
+F 0 "TP23" H 15208 5218 50  0000 L CNN
 F 1 "TestPoint" H 15208 5127 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 15350 5100 50  0001 C CNN
 F 3 "~" H 15350 5100 50  0001 C CNN

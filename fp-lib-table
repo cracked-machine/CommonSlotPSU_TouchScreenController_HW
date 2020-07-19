@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name "Amphenol FCI 10046971-001LF_2x32")(type KiCad)(uri "${KIPRJMOD}/lib/Amphenol FCI 10046971-001LF_2x32.pretty")(options "")(descr ""))
   (lib (name "Samtec HPM-06-02-T-S-RA_1x6")(type KiCad)(uri "${KIPRJMOD}/lib/Samtec HPM-06-02-T-S-RA_1x6.pretty")(options "")(descr ""))
+  (lib (name ILI9341_TFTLCD)(type KiCad)(uri ${KIPRJMOD}/../KicadLibrary/footprint/DISPLAYS/ILI9341_TFTLCD.pretty)(options "")(descr "Footprints for various ILI9341 TFT LCD PCB-mounted displays"))
 )

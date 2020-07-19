@@ -50,20 +50,6 @@ Wire Wire Line
 Connection ~ 5550 5425
 Wire Wire Line
 	5550 5425 5550 5525
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
-U 1 1 5F3F82EB
-P 6675 4875
-AR Path="/5EFF0F4B/5F3F82EB" Ref="J?"  Part="1" 
-AR Path="/5F02F4E9/5F3E7977/5F3F82EB" Ref="J6"  Part="1" 
-AR Path="/5F02F4E9/5F4AA6E5/5F3F82EB" Ref="J6"  Part="1" 
-F 0 "J6" H 6725 4650 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 6725 5101 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 6675 4875 50  0001 C CNN
-F 3 "~" H 6675 4875 50  0001 C CNN
-	1    6675 4875
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	6375 4775 6050 4775
 Wire Wire Line
@@ -85,23 +71,19 @@ F 3 "" H 7300 5525 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4975 6875 4975
+	7300 4975 6975 4975
 Wire Wire Line
-	6875 4875 7300 4875
+	6975 4875 7300 4875
 Wire Wire Line
 	7300 4875 7300 4975
 Connection ~ 7300 4975
 Wire Wire Line
 	7300 4975 7300 5525
 Wire Wire Line
-	6875 4775 7300 4775
+	6975 4775 7300 4775
 Wire Wire Line
 	7300 4775 7300 4875
 Connection ~ 7300 4875
-Wire Wire Line
-	7300 4775 7300 4675
-Wire Wire Line
-	7300 4675 6050 4675
 Connection ~ 7300 4775
 $Comp
 L Device:R R?
@@ -250,7 +232,6 @@ Wire Wire Line
 	6775 3775 7300 3775
 Wire Wire Line
 	7300 3775 7300 3875
-Connection ~ 7300 4675
 Connection ~ 7300 3875
 Wire Wire Line
 	7300 3875 7300 3975
@@ -270,13 +251,11 @@ Connection ~ 7300 4375
 Wire Wire Line
 	7300 4375 7300 4475
 Connection ~ 7300 4475
-Wire Wire Line
-	7300 4475 7300 4675
-Text HLabel 2750 3225 0    50   Input ~ 0
+Text HLabel 2650 3225 0    50   Input ~ 0
 SMBUS_ADDR2
-Text HLabel 2750 3125 0    50   Input ~ 0
+Text HLabel 2650 3125 0    50   Input ~ 0
 SMBUS_ADDR1
-Text HLabel 2750 3025 0    50   Input ~ 0
+Text HLabel 2650 3025 0    50   Input ~ 0
 SMBUS_ADDR0
 Text HLabel 5550 3375 1    50   Input ~ 0
 MCU_3V3
@@ -386,32 +365,19 @@ F 3 "~" H 6425 2325 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5550 3375 5550 3475
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even J5
-U 1 1 5F4489DA
-P 3150 3125
-AR Path="/5F02F4E9/5F3E7977/5F4489DA" Ref="J5"  Part="1" 
-AR Path="/5F02F4E9/5F4AA6E5/5F4489DA" Ref="J5"  Part="1" 
-F 0 "J5" H 3200 3350 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 3200 3351 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3150 3125 50  0001 C CNN
-F 3 "~" H 3150 3125 50  0001 C CNN
-	1    3150 3125
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2750 3025 2950 3025
+	2650 3025 2850 3025
 Wire Wire Line
-	2750 3125 2950 3125
+	2650 3125 2850 3125
+Wire Wire Line
+	2650 3225 2750 3225
+Wire Wire Line
+	2850 3325 2750 3325
+Wire Wire Line
+	2750 3325 2750 3225
+Connection ~ 2750 3225
 Wire Wire Line
 	2750 3225 2850 3225
-Wire Wire Line
-	2950 3325 2850 3325
-Wire Wire Line
-	2850 3325 2850 3225
-Connection ~ 2850 3225
-Wire Wire Line
-	2850 3225 2950 3225
 Wire Wire Line
 	3450 3325 3875 3325
 Wire Wire Line
@@ -449,5 +415,64 @@ F 2 "" H 7300 2550 50  0001 C CNN
 F 3 "" H 7300 2550 50  0001 C CNN
 	1    7300 2550
 	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x04 SW2
+U 1 1 5F2ADDB0
+P 3150 3225
+F 0 "SW2" H 3150 3692 50  0000 C CNN
+F 1 "SW_DIP_x04" H 3150 3601 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile" H 3150 3225 50  0001 C CNN
+F 3 "~" H 3150 3225 50  0001 C CNN
+	1    3150 3225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4675 6325 4675
+Wire Wire Line
+	6325 4675 6325 4625
+$Comp
+L Switch:SW_DIP_x03 SW3
+U 1 1 5F2BCE96
+P 6675 4975
+F 0 "SW3" H 6675 4800 50  0000 C CNN
+F 1 "SW_DIP_x03" H 6675 4700 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile" H 6675 4975 50  0001 C CNN
+F 3 "~" H 6675 4975 50  0001 C CNN
+	1    6675 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 4475 7300 4625
+Wire Wire Line
+	6325 4625 7300 4625
+Connection ~ 7300 4625
+Wire Wire Line
+	7300 4625 7300 4775
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F341E88
+P 3125 3900
+AR Path="/5F02F4E9/5F341E88" Ref="TP?"  Part="1" 
+AR Path="/5F02F4E9/5F4AA6E5/5F341E88" Ref="TP24"  Part="1" 
+F 0 "TP24" H 3183 4018 50  0000 L CNN
+F 1 "TestPoint" H 3183 3927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3325 3900 50  0001 C CNN
+F 3 "~" H 3325 3900 50  0001 C CNN
+	1    3125 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 3900 3125 4150
+$Comp
+L power:GNDS #PWR017
+U 1 1 5F344131
+P 3125 4150
+F 0 "#PWR017" H 3125 3900 50  0001 C CNN
+F 1 "GNDS" H 3130 3977 50  0000 C CNN
+F 2 "" H 3125 4150 50  0001 C CNN
+F 3 "" H 3125 4150 50  0001 C CNN
+	1    3125 4150
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
