@@ -122,9 +122,9 @@ L Regulator_Linear:AZ1117-3.3 U7
 U 1 1 5F26009C
 P 4475 6525
 F 0 "U7" H 4475 6767 50  0000 C CNN
-F 1 "AZ1117-3.3" H 4475 6676 50  0000 C CNN
+F 1 "AZ1117CR-3.3" H 4475 6676 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3_Handsoldering" H 4475 6775 50  0001 C CIN
-F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 4475 6525 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117C.pdf" H 4475 6525 50  0001 C CNN
 	1    4475 6525
 	1    0    0    -1  
 $EndComp
