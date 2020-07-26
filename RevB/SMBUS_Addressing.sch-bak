@@ -23,7 +23,7 @@ AR Path="/5F02F4E9/5F4AA6E5/5F3F82D9" Ref="U3"  Part="1"
 F 0 "U3" H 6094 4421 50  0000 L CNN
 F 1 "4051" H 6094 4330 50  0000 L CNN
 F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 5550 4375 50  0001 C CNN
-F 3 "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4051bms-52bms-53bms.pdf" H 5550 4375 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/cd4052b.pdf?ts=1595798534897&ref_url=https%253A%252F%252Fwww.google.com%252F" H 5550 4375 50  0001 C CNN
 	1    5550 4375
 	-1   0    0    -1  
 $EndComp
@@ -50,41 +50,24 @@ Wire Wire Line
 Connection ~ 5550 5425
 Wire Wire Line
 	5550 5425 5550 5525
-Wire Wire Line
-	6375 4775 6050 4775
-Wire Wire Line
-	6050 4875 6375 4875
-Wire Wire Line
-	6375 4975 6050 4975
 $Comp
 L power:GNDS #PWR?
 U 1 1 5F3F82F4
-P 7300 5525
+P 8625 6150
 AR Path="/5EFF0F4B/5F3F82F4" Ref="#PWR?"  Part="1" 
 AR Path="/5F02F4E9/5F3E7977/5F3F82F4" Ref="#PWR08"  Part="1" 
 AR Path="/5F02F4E9/5F4AA6E5/5F3F82F4" Ref="#PWR013"  Part="1" 
-F 0 "#PWR013" H 7300 5275 50  0001 C CNN
-F 1 "GNDS" H 7305 5352 50  0000 C CNN
-F 2 "" H 7300 5525 50  0001 C CNN
-F 3 "" H 7300 5525 50  0001 C CNN
-	1    7300 5525
+F 0 "#PWR013" H 8625 5900 50  0001 C CNN
+F 1 "GNDS" H 8630 5977 50  0000 C CNN
+F 2 "" H 8625 6150 50  0001 C CNN
+F 3 "" H 8625 6150 50  0001 C CNN
+	1    8625 6150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4975 6975 4975
+	7100 5900 7850 5900
 Wire Wire Line
-	6975 4875 7300 4875
-Wire Wire Line
-	7300 4875 7300 4975
-Connection ~ 7300 4975
-Wire Wire Line
-	7300 4975 7300 5525
-Wire Wire Line
-	6975 4775 7300 4775
-Wire Wire Line
-	7300 4775 7300 4875
-Connection ~ 7300 4875
-Connection ~ 7300 4775
+	7100 5800 8225 5800
 $Comp
 L Device:R R?
 U 1 1 5F3F8305
@@ -103,7 +86,7 @@ $EndComp
 Wire Wire Line
 	6475 4475 6050 4475
 Wire Wire Line
-	6775 4475 7300 4475
+	6775 4475 8625 4475
 $Comp
 L Device:R R?
 U 1 1 5F3F830D
@@ -121,7 +104,7 @@ $EndComp
 Wire Wire Line
 	6475 4375 6050 4375
 Wire Wire Line
-	6775 4375 7300 4375
+	6775 4375 8625 4375
 $Comp
 L Device:R R?
 U 1 1 5F3F8315
@@ -139,7 +122,7 @@ $EndComp
 Wire Wire Line
 	6475 4275 6050 4275
 Wire Wire Line
-	6775 4275 7300 4275
+	6775 4275 8625 4275
 $Comp
 L Device:R R?
 U 1 1 5F3F831D
@@ -157,7 +140,7 @@ $EndComp
 Wire Wire Line
 	6475 4175 6050 4175
 Wire Wire Line
-	6775 4175 7300 4175
+	6775 4175 8625 4175
 $Comp
 L Device:R R?
 U 1 1 5F3F8325
@@ -175,7 +158,7 @@ $EndComp
 Wire Wire Line
 	6475 4075 6050 4075
 Wire Wire Line
-	6775 4075 7300 4075
+	6775 4075 8625 4075
 $Comp
 L Device:R R?
 U 1 1 5F3F832D
@@ -193,7 +176,7 @@ $EndComp
 Wire Wire Line
 	6475 3975 6050 3975
 Wire Wire Line
-	6775 3975 7300 3975
+	6775 3975 8625 3975
 $Comp
 L Device:R R?
 U 1 1 5F3F8335
@@ -211,7 +194,7 @@ $EndComp
 Wire Wire Line
 	6475 3875 6050 3875
 Wire Wire Line
-	6775 3875 7300 3875
+	6775 3875 8625 3875
 $Comp
 L Device:R R?
 U 1 1 5F3F833D
@@ -229,28 +212,28 @@ $EndComp
 Wire Wire Line
 	6475 3775 6050 3775
 Wire Wire Line
-	6775 3775 7300 3775
+	6775 3775 8625 3775
 Wire Wire Line
-	7300 3775 7300 3875
-Connection ~ 7300 3875
+	8625 3775 8625 3875
+Connection ~ 8625 3875
 Wire Wire Line
-	7300 3875 7300 3975
-Connection ~ 7300 3975
+	8625 3875 8625 3975
+Connection ~ 8625 3975
 Wire Wire Line
-	7300 3975 7300 4075
-Connection ~ 7300 4075
+	8625 3975 8625 4075
+Connection ~ 8625 4075
 Wire Wire Line
-	7300 4075 7300 4175
-Connection ~ 7300 4175
+	8625 4075 8625 4175
+Connection ~ 8625 4175
 Wire Wire Line
-	7300 4175 7300 4275
-Connection ~ 7300 4275
+	8625 4175 8625 4275
+Connection ~ 8625 4275
 Wire Wire Line
-	7300 4275 7300 4375
-Connection ~ 7300 4375
+	8625 4275 8625 4375
+Connection ~ 8625 4375
 Wire Wire Line
-	7300 4375 7300 4475
-Connection ~ 7300 4475
+	8625 4375 8625 4475
+Connection ~ 8625 4475
 Text HLabel 2650 3225 0    50   Input ~ 0
 SMBUS_ADDR2
 Text HLabel 2650 3125 0    50   Input ~ 0
@@ -427,28 +410,20 @@ F 3 "~" H 3150 3225 50  0001 C CNN
 	1    3150 3225
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6050 4675 6325 4675
-Wire Wire Line
-	6325 4675 6325 4625
 $Comp
 L Switch:SW_DIP_x03 SW3
 U 1 1 5F2BCE96
-P 6675 4975
-F 0 "SW3" H 6675 4800 50  0000 C CNN
-F 1 "SW_DIP_x03" H 6675 4700 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile" H 6675 4975 50  0001 C CNN
-F 3 "~" H 6675 4975 50  0001 C CNN
-	1    6675 4975
+P 6800 6000
+F 0 "SW3" H 6800 5825 50  0000 C CNN
+F 1 "SW_DIP_x03" H 6800 5725 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile" H 6800 6000 50  0001 C CNN
+F 3 "~" H 6800 6000 50  0001 C CNN
+	1    6800 6000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 4475 7300 4625
-Wire Wire Line
-	6325 4625 7300 4625
-Connection ~ 7300 4625
-Wire Wire Line
-	7300 4625 7300 4775
+	8625 4475 8625 4675
+Connection ~ 8625 4675
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F341E88
@@ -475,4 +450,112 @@ F 3 "" H 3125 4150 50  0001 C CNN
 	1    3125 4150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6050 4775 6375 4775
+Wire Wire Line
+	6375 4775 6375 5800
+Wire Wire Line
+	6375 5800 6500 5800
+Wire Wire Line
+	6050 4875 6300 4875
+Wire Wire Line
+	6300 4875 6300 5900
+Wire Wire Line
+	6300 5900 6500 5900
+Wire Wire Line
+	6050 4975 6225 4975
+Wire Wire Line
+	6225 4975 6225 6000
+Wire Wire Line
+	6225 6000 6500 6000
+Wire Wire Line
+	6050 4675 8625 4675
+Wire Wire Line
+	7100 6000 7475 6000
+$Comp
+L Device:R R?
+U 1 1 5F442CB6
+P 8225 5450
+AR Path="/5EFF0F4B/5F442CB6" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F442CB6" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F3E7977/5F442CB6" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F4AA6E5/5F442CB6" Ref="R21"  Part="1" 
+F 0 "R21" H 8100 5500 50  0000 C CNN
+F 1 "100K" H 8075 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8155 5450 50  0001 C CNN
+F 3 "~" H 8225 5450 50  0001 C CNN
+	1    8225 5450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8625 5800
+Wire Wire Line
+	8625 5800 8625 5900
+Connection ~ 8625 5900
+Wire Wire Line
+	8625 5900 8625 6000
+Connection ~ 8625 6000
+Wire Wire Line
+	8625 6000 8625 6150
+Wire Wire Line
+	8625 4675 8625 5800
+Wire Wire Line
+	8225 5250 8225 5300
+Wire Wire Line
+	8225 5600 8225 5800
+Connection ~ 8225 5800
+Wire Wire Line
+	8225 5800 8625 5800
+Text HLabel 7850 5150 1    50   Input ~ 0
+MCU_3V3
+$Comp
+L Device:R R?
+U 1 1 5F4614AE
+P 7850 5450
+AR Path="/5EFF0F4B/5F4614AE" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F4614AE" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F3E7977/5F4614AE" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F4AA6E5/5F4614AE" Ref="R20"  Part="1" 
+F 0 "R20" H 7725 5500 50  0000 C CNN
+F 1 "100K" H 7700 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7780 5450 50  0001 C CNN
+F 3 "~" H 7850 5450 50  0001 C CNN
+	1    7850 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5150 7850 5250
+$Comp
+L Device:R R?
+U 1 1 5F464BEE
+P 7475 5450
+AR Path="/5EFF0F4B/5F464BEE" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F464BEE" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F3E7977/5F464BEE" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F4AA6E5/5F464BEE" Ref="R19"  Part="1" 
+F 0 "R19" H 7350 5500 50  0000 C CNN
+F 1 "100K" H 7325 5400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7405 5450 50  0001 C CNN
+F 3 "~" H 7475 5450 50  0001 C CNN
+	1    7475 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5600 7850 5900
+Connection ~ 7850 5900
+Wire Wire Line
+	7850 5900 8625 5900
+Wire Wire Line
+	7475 5600 7475 6000
+Connection ~ 7475 6000
+Wire Wire Line
+	7475 6000 8625 6000
+Wire Wire Line
+	8225 5250 7850 5250
+Wire Wire Line
+	7475 5250 7475 5300
+Connection ~ 7850 5250
+Wire Wire Line
+	7850 5250 7850 5300
+Wire Wire Line
+	7850 5250 7475 5250
 $EndSCHEMATC
