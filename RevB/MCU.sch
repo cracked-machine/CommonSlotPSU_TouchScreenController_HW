@@ -1,0 +1,712 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 7
+Title "Microcontroller"
+Date "2020-07-26"
+Rev "B"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6775 6675 6775 6975
+Wire Wire Line
+	6875 6675 6875 6975
+Wire Wire Line
+	6875 6975 6775 6975
+Connection ~ 6775 6975
+Wire Wire Line
+	6775 6975 6775 7100
+Text HLabel 6875 2225 1    50   Input ~ 0
+MCU_3V3
+Wire Wire Line
+	6875 2225 6875 2375
+Wire Wire Line
+	6775 2375 6775 2875
+Wire Wire Line
+	6875 3075 6875 2375
+Wire Wire Line
+	6875 2375 6775 2375
+Wire Wire Line
+	6975 3075 6975 2375
+Wire Wire Line
+	6975 2375 6875 2375
+Connection ~ 6875 2375
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5F0D5B06
+P 2125 10125
+F 0 "J1" H 2043 10542 50  0000 C CNN
+F 1 "Conn_01x05" H 2043 10451 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 2125 10125 50  0001 C CNN
+F 3 "~" H 2125 10125 50  0001 C CNN
+	1    2125 10125
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 9925 3350 9925
+Wire Wire Line
+	2325 10225 2725 10225
+Wire Wire Line
+	2325 10325 2725 10325
+Wire Wire Line
+	2325 10025 2725 10025
+Text Label 2725 10025 2    50   ~ 0
+SWCLK
+Text Label 2725 10225 2    50   ~ 0
+SWDIO
+Text Label 2725 10325 2    50   ~ 0
+NRST
+Wire Wire Line
+	7675 4675 8525 4675
+Text Label 8525 4675 2    50   ~ 0
+SWCLK
+Wire Wire Line
+	7675 4575 8525 4575
+Text Label 8525 4575 2    50   ~ 0
+SWDIO
+Wire Wire Line
+	6275 3275 6050 3275
+Text Label 6050 3275 0    50   ~ 0
+NRST
+Wire Wire Line
+	7675 3275 8200 3275
+Text HLabel 8200 3275 2    50   Input ~ 0
+MCU_IMON
+Wire Wire Line
+	7675 3375 8200 3375
+Text HLabel 8200 3375 2    50   Input ~ 0
+MCU_PSOK
+Wire Wire Line
+	6275 5475 5750 5475
+Wire Wire Line
+	6275 5375 5750 5375
+Wire Wire Line
+	7675 4975 8525 4975
+Wire Wire Line
+	7675 3775 8525 3775
+Wire Wire Line
+	7675 3975 8525 3975
+Wire Wire Line
+	7675 3875 8525 3875
+Text Label 8525 4975 2    50   ~ 0
+TFT_DC
+Text Label 5750 5375 0    50   ~ 0
+TFT_CS
+Text Label 5750 5475 0    50   ~ 0
+TFT_RST
+Text Label 8525 3775 2    50   ~ 0
+TFT_SCK
+Text Label 8525 3975 2    50   ~ 0
+TFT_MOSI
+Wire Wire Line
+	14100 4650 13550 4650
+Wire Wire Line
+	14100 4450 13550 4450
+Wire Wire Line
+	14100 4550 13550 4550
+Wire Wire Line
+	14100 4850 13550 4850
+Wire Wire Line
+	14100 4750 13550 4750
+Text Label 13550 4650 0    50   ~ 0
+TFT_DC
+Text Label 13550 4450 0    50   ~ 0
+TFT_CS
+Text Label 13550 4550 0    50   ~ 0
+TFT_RST
+Text Label 13550 4850 0    50   ~ 0
+TFT_SCK
+Text Label 13550 4750 0    50   ~ 0
+TFT_MOSI
+Wire Wire Line
+	7675 5675 8825 5675
+Text HLabel 9275 5675 2    50   Input ~ 0
+SMBUS_SDA
+Text HLabel 9275 5575 2    50   Input ~ 0
+SMBUS_SCL
+Wire Wire Line
+	9275 5575 9125 5575
+Wire Wire Line
+	7675 5475 7950 5475
+Text HLabel 7950 5475 2    50   Input ~ 0
+SMBUS_SMBA
+$Comp
+L Device:R R1
+U 1 1 5F10DA0D
+P 9125 5350
+F 0 "R1" H 9195 5396 50  0000 L CNN
+F 1 "10K" H 9195 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9195 5259 50  0001 L CNN
+F 3 "~" H 9125 5350 50  0001 C CNN
+	1    9125 5350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5F10DE2D
+P 8825 5350
+F 0 "R2" H 8895 5396 50  0000 L CNN
+F 1 "10K" H 8895 5305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8895 5259 50  0001 L CNN
+F 3 "~" H 8825 5350 50  0001 C CNN
+	1    8825 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8825 5500 8825 5675
+Connection ~ 8825 5675
+Wire Wire Line
+	8825 5675 9275 5675
+Wire Wire Line
+	9125 5500 9125 5575
+Connection ~ 9125 5575
+Wire Wire Line
+	9125 5575 7675 5575
+Wire Wire Line
+	9125 5200 9125 5025
+Wire Wire Line
+	8825 5200 8825 5025
+Wire Wire Line
+	8825 5025 8975 5025
+Wire Wire Line
+	8975 4925 8975 5025
+Connection ~ 8975 5025
+Wire Wire Line
+	8975 5025 9125 5025
+$Comp
+L MCU_ST_STM32F0:STM32F072RBTx U2
+U 1 1 5EFE5C8D
+P 6975 4875
+F 0 "U2" H 6100 7500 50  0000 C CNN
+F 1 "STM32F072RBTx" H 6175 7325 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 6375 3175 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf" H 6975 4875 50  0001 C CNN
+	1    6975 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6975 2375 7075 2375
+Wire Wire Line
+	7075 2375 7075 3075
+Connection ~ 6975 2375
+Connection ~ 7075 2375
+Wire Wire Line
+	7275 2375 7275 3075
+Wire Wire Line
+	6875 6975 6975 6975
+Wire Wire Line
+	6975 6975 6975 6675
+Connection ~ 6875 6975
+Wire Wire Line
+	6975 6975 7075 6975
+Wire Wire Line
+	7075 6975 7075 6675
+Connection ~ 6975 6975
+Wire Wire Line
+	7075 6975 7175 6975
+Wire Wire Line
+	7175 6975 7175 6675
+Connection ~ 7075 6975
+$Comp
+L Connector_Generic:Conn_01x14 J2
+U 1 1 5F024FEF
+P 14300 4850
+F 0 "J2" H 14325 5700 50  0000 L CNN
+F 1 "Conn_01x14" H 14075 5600 50  0000 L CNN
+F 2 "ILI9341_TFTLCD:ILI9341_ResitiveTouch_TFTLCD_2.8inch_85mm_50mm_FrontMount" H 14300 4850 50  0001 C CNN
+F 3 "~" H 14300 4850 50  0001 C CNN
+	1    14300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 5050 13550 5050
+Text Label 13550 5050 0    50   ~ 0
+TFT_MISO
+Wire Wire Line
+	14100 5150 13550 5150
+Wire Wire Line
+	14100 5250 13550 5250
+Wire Wire Line
+	14100 5350 13550 5350
+Wire Wire Line
+	14100 5450 13550 5450
+Wire Wire Line
+	14100 5550 13550 5550
+Text Label 13550 5150 0    50   ~ 0
+TS_SCK
+Text Label 13550 5250 0    50   ~ 0
+TS_CS
+Text Label 13550 5350 0    50   ~ 0
+TS_MOSI
+Text Label 13550 5450 0    50   ~ 0
+TS_MISO
+Text Label 13550 5550 0    50   ~ 0
+TS_IRQ
+Text Label 8525 3875 2    50   ~ 0
+TFT_MISO
+Wire Wire Line
+	7675 6275 8525 6275
+Wire Wire Line
+	7675 6175 8525 6175
+Wire Wire Line
+	7675 6475 8525 6475
+Wire Wire Line
+	7675 6375 8525 6375
+Wire Wire Line
+	6275 5575 5750 5575
+Text Label 8525 6275 2    50   ~ 0
+TS_SCK
+Text Label 8525 6175 2    50   ~ 0
+TS_CS
+Text Label 8525 6475 2    50   ~ 0
+TS_MOSI
+Text Label 8525 6375 2    50   ~ 0
+TS_MISO
+Text Label 5750 5575 0    50   ~ 0
+TS_IRQ
+NoConn ~ 7675 3575
+NoConn ~ 7675 3675
+NoConn ~ 7675 4075
+NoConn ~ 7675 4175
+NoConn ~ 7675 4275
+NoConn ~ 7675 4375
+NoConn ~ 7675 4475
+NoConn ~ 7675 4775
+NoConn ~ 7675 3475
+NoConn ~ 7675 5375
+NoConn ~ 7675 5775
+NoConn ~ 7675 5875
+NoConn ~ 6275 6075
+NoConn ~ 6275 5975
+NoConn ~ 6275 5875
+NoConn ~ 6275 5775
+NoConn ~ 6275 5675
+NoConn ~ 7675 5175
+NoConn ~ 6275 5275
+NoConn ~ 6275 5175
+NoConn ~ 6275 5075
+NoConn ~ 6275 4975
+NoConn ~ 6275 4775
+NoConn ~ 6275 4575
+NoConn ~ 6275 4475
+$Comp
+L Device:R R4
+U 1 1 5F10483F
+P 5950 3475
+F 0 "R4" V 5850 3475 50  0000 C CNN
+F 1 "10K" V 5775 3475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 3475 50  0001 C CNN
+F 3 "~" H 5950 3475 50  0001 C CNN
+	1    5950 3475
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8250 9600 8250 9900
+$Comp
+L Device:L_Small L1
+U 1 1 5F1199BC
+P 7175 2575
+F 0 "L1" H 7125 2975 50  0000 L CNN
+F 1 "BEAD" H 7075 2900 50  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7175 2575 50  0001 C CNN
+F 3 "~" H 7175 2575 50  0001 C CNN
+	1    7175 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5F11F5B3
+P 6125 2875
+F 0 "C1" V 5873 2875 50  0000 C CNN
+F 1 "100nF" V 5964 2875 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6163 2725 50  0001 C CNN
+F 3 "~" H 6125 2875 50  0001 C CNN
+	1    6125 2875
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6275 2875 6775 2875
+Connection ~ 6775 2875
+Wire Wire Line
+	6775 2875 6775 3075
+Wire Wire Line
+	5975 2875 5650 2875
+Wire Wire Line
+	5650 2875 5650 3475
+Connection ~ 5650 3475
+Wire Wire Line
+	5650 3475 5800 3475
+$Comp
+L Device:C C2
+U 1 1 5F13F3AD
+P 8250 10200
+F 0 "C2" H 8135 10154 50  0000 R CNN
+F 1 "100nF" H 8135 10245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8288 10050 50  0001 C CNN
+F 3 "~" H 8250 10200 50  0001 C CNN
+	1    8250 10200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8250 10350 8250 10475
+$Comp
+L Device:C C3
+U 1 1 5F1454C3
+P 8925 10200
+F 0 "C3" H 8810 10154 50  0000 R CNN
+F 1 "100nF" H 8810 10245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8963 10050 50  0001 C CNN
+F 3 "~" H 8925 10200 50  0001 C CNN
+	1    8925 10200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5F146977
+P 9425 10200
+F 0 "C4" H 9310 10154 50  0000 R CNN
+F 1 "100nF" H 9310 10245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9463 10050 50  0001 C CNN
+F 3 "~" H 9425 10200 50  0001 C CNN
+	1    9425 10200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F146CD9
+P 9925 10200
+F 0 "C5" H 9810 10154 50  0000 R CNN
+F 1 "100nF" H 9810 10245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9963 10050 50  0001 C CNN
+F 3 "~" H 9925 10200 50  0001 C CNN
+	1    9925 10200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5F146FAE
+P 10400 10200
+F 0 "C6" H 10285 10154 50  0000 R CNN
+F 1 "100nF" H 10285 10245 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10438 10050 50  0001 C CNN
+F 3 "~" H 10400 10200 50  0001 C CNN
+	1    10400 10200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8925 9925 8925 10000
+Wire Wire Line
+	8925 10350 8925 10400
+Wire Wire Line
+	8925 10000 9425 10000
+Wire Wire Line
+	10400 10000 10400 10050
+Connection ~ 8925 10000
+Wire Wire Line
+	8925 10000 8925 10050
+Wire Wire Line
+	8925 10400 9425 10400
+Wire Wire Line
+	10400 10400 10400 10350
+Connection ~ 8925 10400
+Wire Wire Line
+	8925 10400 8925 10475
+Wire Wire Line
+	9925 10350 9925 10400
+Connection ~ 9925 10400
+Wire Wire Line
+	9925 10400 10400 10400
+Wire Wire Line
+	9425 10350 9425 10400
+Connection ~ 9425 10400
+Wire Wire Line
+	9425 10400 9925 10400
+Wire Wire Line
+	9425 10050 9425 10000
+Connection ~ 9425 10000
+Wire Wire Line
+	9425 10000 9925 10000
+Wire Wire Line
+	9925 10050 9925 10000
+Connection ~ 9925 10000
+Wire Wire Line
+	9925 10000 10400 10000
+Text Notes 14500 4925 0    50   ~ 0
+TOUCHSCREEN TFT LCD
+Text Notes 1450 10150 0    50   ~ 0
+ICP SOCKET
+Wire Wire Line
+	7075 2375 7175 2375
+Wire Wire Line
+	7175 3075 7175 2675
+Connection ~ 7175 2375
+Wire Wire Line
+	7175 2375 7275 2375
+Text Label 7175 3025 1    50   ~ 0
+AVDD
+Wire Wire Line
+	7175 2475 7175 2375
+Text Label 8250 9600 1    50   ~ 0
+AVDD
+Wire Wire Line
+	6100 3475 6275 3475
+Wire Wire Line
+	5650 3475 5650 3650
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5F1B887C
+P 8450 9650
+F 0 "#FLG0104" H 8450 9725 50  0001 C CNN
+F 1 "PWR_FLAG" H 8450 9823 50  0000 C CNN
+F 2 "" H 8450 9650 50  0001 C CNN
+F 3 "~" H 8450 9650 50  0001 C CNN
+	1    8450 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 9650 8450 9900
+Wire Wire Line
+	8450 9900 8250 9900
+Connection ~ 8250 9900
+Wire Wire Line
+	8250 9900 8250 10050
+Wire Wire Line
+	7675 5275 7950 5275
+Text HLabel 7950 5275 2    50   Input ~ 0
+MCU_SW_OUT
+NoConn ~ 6275 6175
+NoConn ~ 7675 5975
+NoConn ~ 7675 6075
+NoConn ~ 7675 5075
+$Sheet
+S 11675 5575 1375 700 
+U 5F1755C4
+F0 "TFT_DelayedReset" 50
+F1 "TFT_DelayedReset.sch" 50
+F2 "TFTRST_5V" I L 11675 5750 50 
+F3 "TFT_VDD_OUT" I R 13050 5750 50 
+F4 "NRST_IN" I L 11675 6100 50 
+$EndSheet
+Wire Wire Line
+	11675 6100 11050 6100
+Text Label 11050 6100 0    50   ~ 0
+NRST
+Wire Wire Line
+	12775 4950 12775 4250
+Wire Wire Line
+	12775 4250 14100 4250
+Wire Wire Line
+	12775 4950 13250 4950
+Text HLabel 8925 9925 1    50   Input ~ 0
+MCU_3V3
+Text HLabel 8975 4925 1    50   Input ~ 0
+MCU_3V3
+Text HLabel 3475 9925 2    50   Input ~ 0
+MCU_3V3
+Wire Wire Line
+	11675 5750 11475 5750
+Text HLabel 11475 5750 0    50   Input ~ 0
+TFTRST_5V
+$Comp
+L Device:Jumper_NO_Small JP1
+U 1 1 5F13F660
+P 12600 4250
+F 0 "JP1" H 12600 4343 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 12600 4344 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 12600 4250 50  0001 C CNN
+F 3 "~" H 12600 4250 50  0001 C CNN
+	1    12600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 4250 12775 4250
+Connection ~ 12775 4250
+Wire Wire Line
+	12500 4250 11725 4250
+Wire Wire Line
+	11725 4250 11725 4125
+Text HLabel 11725 4125 1    50   Input ~ 0
+TFTRST_5V
+NoConn ~ 6275 6375
+NoConn ~ 6275 6475
+NoConn ~ 6275 6275
+$Sheet
+S 1550 4925 1450 1000
+U 5F4AA6E5
+F0 "SMBUS_Addressing" 50
+F1 "SMBUS_Addressing.sch" 50
+F2 "SMBUS_ADDR2" I R 3000 5225 50 
+F3 "SMBUS_ADDR1" I R 3000 5350 50 
+F4 "SMBUS_ADDR0" I R 3000 5475 50 
+F5 "MCU_3V3" I R 3000 5700 50 
+$EndSheet
+$Comp
+L power:GNDS #PWR07
+U 1 1 5F4E142E
+P 6775 7100
+F 0 "#PWR07" H 6775 6850 50  0001 C CNN
+F 1 "GNDS" H 6780 6927 50  0000 C CNN
+F 2 "" H 6775 7100 50  0001 C CNN
+F 3 "" H 6775 7100 50  0001 C CNN
+	1    6775 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR06
+U 1 1 5F4E1A16
+P 5650 3650
+F 0 "#PWR06" H 5650 3400 50  0001 C CNN
+F 1 "GNDS" H 5655 3477 50  0000 C CNN
+F 2 "" H 5650 3650 50  0001 C CNN
+F 3 "" H 5650 3650 50  0001 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR08
+U 1 1 5F4EB9C7
+P 8250 10475
+F 0 "#PWR08" H 8250 10225 50  0001 C CNN
+F 1 "GNDS" H 8255 10302 50  0000 C CNN
+F 2 "" H 8250 10475 50  0001 C CNN
+F 3 "" H 8250 10475 50  0001 C CNN
+	1    8250 10475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR09
+U 1 1 5F4EC257
+P 8925 10475
+F 0 "#PWR09" H 8925 10225 50  0001 C CNN
+F 1 "GNDS" H 8930 10302 50  0000 C CNN
+F 2 "" H 8925 10475 50  0001 C CNN
+F 3 "" H 8925 10475 50  0001 C CNN
+	1    8925 10475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 10125 3900 10500
+Wire Wire Line
+	2325 10125 3900 10125
+$Comp
+L power:GNDS #PWR010
+U 1 1 5F506D40
+P 3900 10500
+F 0 "#PWR010" H 3900 10250 50  0001 C CNN
+F 1 "GNDS" H 3905 10327 50  0000 C CNN
+F 2 "" H 3900 10500 50  0001 C CNN
+F 3 "" H 3900 10500 50  0001 C CNN
+	1    3900 10500
+	1    0    0    -1  
+$EndComp
+Text HLabel 3550 5700 2    50   Input ~ 0
+MCU_3V3
+Wire Wire Line
+	3000 5700 3550 5700
+Text HLabel 3550 5475 2    50   Input ~ 0
+SMBUS_A0
+Text HLabel 3550 5350 2    50   Input ~ 0
+SMBUS_A1
+Text HLabel 3550 5225 2    50   Input ~ 0
+SMBUS_A2
+Wire Wire Line
+	3550 5225 3000 5225
+Wire Wire Line
+	3000 5350 3550 5350
+Wire Wire Line
+	3550 5475 3000 5475
+$Comp
+L power:GNDS #PWR0102
+U 1 1 5F5AC257
+P 13150 4500
+F 0 "#PWR0102" H 13150 4250 50  0001 C CNN
+F 1 "GNDS" H 13155 4327 50  0000 C CNN
+F 2 "" H 13150 4500 50  0001 C CNN
+F 3 "" H 13150 4500 50  0001 C CNN
+	1    13150 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 4500 13150 4350
+Wire Wire Line
+	13150 4350 14100 4350
+Text Notes 12300 4025 0    50   ~ 0
+Connect JP1 when\nTFT_DelayedReset\n is not required\n
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F16AD63
+P 3350 9675
+F 0 "TP1" H 3408 9793 50  0000 L CNN
+F 1 "TestPoint" H 3408 9702 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3550 9675 50  0001 C CNN
+F 3 "~" H 3550 9675 50  0001 C CNN
+	1    3350 9675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 9675 3350 9925
+Connection ~ 3350 9925
+Wire Wire Line
+	3350 9925 3475 9925
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F170479
+P 4100 10125
+F 0 "TP2" V 4025 10200 50  0000 L CNN
+F 1 "TestPoint" V 4200 10175 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4300 10125 50  0001 C CNN
+F 3 "~" H 4300 10125 50  0001 C CNN
+	1    4100 10125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 10125 3900 10125
+Connection ~ 3900 10125
+$Comp
+L Connector:TestPoint TP22
+U 1 1 5F271D97
+P 5800 10250
+AR Path="/5F02F4E9/5F271D97" Ref="TP22"  Part="1" 
+AR Path="/5EFF0F4B/5F271D97" Ref="TP?"  Part="1" 
+F 0 "TP22" H 5858 10368 50  0000 L CNN
+F 1 "TestPoint" H 5858 10277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6000 10250 50  0001 C CNN
+F 3 "~" H 6000 10250 50  0001 C CNN
+	1    5800 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP23
+U 1 1 5F275A4B
+P 6300 10250
+AR Path="/5F02F4E9/5F275A4B" Ref="TP23"  Part="1" 
+AR Path="/5EFF0F4B/5F275A4B" Ref="TP?"  Part="1" 
+F 0 "TP23" H 6358 10368 50  0000 L CNN
+F 1 "TestPoint" H 6358 10277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6500 10250 50  0001 C CNN
+F 3 "~" H 6500 10250 50  0001 C CNN
+	1    6300 10250
+	1    0    0    -1  
+$EndComp
+Text Label 5800 10575 1    50   ~ 0
+SWCLK
+Wire Wire Line
+	5800 10250 5800 10575
+Text Label 6300 10575 1    50   ~ 0
+SWDIO
+Wire Wire Line
+	6300 10250 6300 10575
+Wire Wire Line
+	13050 5750 13250 5750
+Wire Wire Line
+	13250 5750 13250 4950
+Connection ~ 13250 4950
+Wire Wire Line
+	13250 4950 14100 4950
+$EndSCHEMATC
