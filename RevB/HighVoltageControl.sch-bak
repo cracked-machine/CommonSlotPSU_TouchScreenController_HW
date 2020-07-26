@@ -111,11 +111,9 @@ F 1 "DMG2302U" V 5050 2175 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5400 2600 50  0001 L CIN
 F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 5200 2675 50  0001 L CNN
 	1    5200 2675
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	5200 2475 5200 2325
-Text HLabel 5200 2325 2    50   Input ~ 0
+Text HLabel 5425 2150 2    50   Input ~ 0
 MCU_SW_IN
 $Comp
 L Regulator_Linear:AZ1117-3.3 U7
@@ -413,4 +411,8 @@ Text Notes 1000 4100 0    100  ~ 0
 MCU/TFT Power
 Wire Notes Line
 	1000 3550 10675 3550
+Wire Wire Line
+	5425 2150 5200 2150
+Wire Wire Line
+	5200 2150 5200 2475
 $EndSCHEMATC

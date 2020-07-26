@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/chris/Projects/Hardware/CommonSlotPSU_TouchScreenController_HW/RevB/ServerPSU_Breakout.sch)
-    (date "Sun 26 Jul 2020 12:08:18 BST")
+    (date "Sun 26 Jul 2020 15:34:54 BST")
     (tool "Eeschema 5.1.6-c6e7f7d~87~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1167,7 +1167,7 @@
       (node (ref R3) (pin 1)))
     (net (code 10) (name /HighVoltageControl/PSU_ON)
       (node (ref J_PSU_IN1) (pin 33))
-      (node (ref Q1) (pin 2))
+      (node (ref Q1) (pin 3))
       (node (ref TP18) (pin 1)))
     (net (code 11) (name /MCU/TFTRST_5V)
       (node (ref JP1) (pin 1))
@@ -1263,7 +1263,7 @@
       (node (ref J_PSU_IN1) (pin 16))
       (node (ref U7) (pin 1))
       (node (ref J_PSU_IN1) (pin 30))
-      (node (ref Q1) (pin 3))
+      (node (ref Q1) (pin 2))
       (node (ref J_PSU_IN1) (pin 39))
       (node (ref J_PSU_IN1) (pin 22))
       (node (ref D1) (pin 2))

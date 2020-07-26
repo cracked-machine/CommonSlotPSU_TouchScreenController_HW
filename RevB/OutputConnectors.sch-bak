@@ -40,7 +40,7 @@ U 1 1 5EFFCB36
 P 4800 3000
 F 0 "J3" H 4880 3042 50  0000 L CNN
 F 1 "Conn_01x01" H 4880 2951 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 4800 3000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6_Pad_Via" H 4800 3000 50  0001 C CNN
 F 3 "https://docs.rs-online.com/41b5/A700000006757323.pdf" H 4800 3000 50  0001 C CNN
 	1    4800 3000
 	1    0    0    -1  
@@ -51,7 +51,7 @@ U 1 1 5EFFE270
 P 4800 3850
 F 0 "J4" H 4880 3892 50  0000 L CNN
 F 1 "Conn_01x01" H 4880 3801 50  0000 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 4800 3850 50  0001 C CNN
+F 2 "MountingHole:MountingHole_6.4mm_M6_Pad_Via" H 4800 3850 50  0001 C CNN
 F 3 "https://docs.rs-online.com/41b5/A700000006757323.pdf" H 4800 3850 50  0001 C CNN
 	1    4800 3850
 	1    0    0    -1  
