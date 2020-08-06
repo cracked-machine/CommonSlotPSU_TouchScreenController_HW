@@ -230,11 +230,11 @@ Connection ~ 8625 4375
 Wire Wire Line
 	8625 4375 8625 4475
 Connection ~ 8625 4475
-Text HLabel 2650 3225 0    50   Input ~ 0
+Text HLabel 2750 3225 0    50   Input ~ 0
 SMBUS_ADDR2
-Text HLabel 2650 3125 0    50   Input ~ 0
+Text HLabel 2750 3125 0    50   Input ~ 0
 SMBUS_ADDR1
-Text HLabel 2650 3025 0    50   Input ~ 0
+Text HLabel 2750 3025 0    50   Input ~ 0
 SMBUS_ADDR0
 Text HLabel 5550 3375 1    50   Input ~ 0
 MCU_3V3
@@ -345,18 +345,18 @@ $EndComp
 Wire Wire Line
 	5550 3375 5550 3475
 Wire Wire Line
-	2650 3025 2850 3025
+	2750 3025 2950 3025
 Wire Wire Line
-	2650 3125 2850 3125
-Wire Wire Line
-	2650 3225 2750 3225
-Wire Wire Line
-	2850 3325 2750 3325
-Wire Wire Line
-	2750 3325 2750 3225
-Connection ~ 2750 3225
+	2750 3125 2950 3125
 Wire Wire Line
 	2750 3225 2850 3225
+Wire Wire Line
+	2950 3325 2850 3325
+Wire Wire Line
+	2850 3325 2850 3225
+Connection ~ 2850 3225
+Wire Wire Line
+	2850 3225 2950 3225
 Wire Wire Line
 	3450 3325 3875 3325
 Wire Wire Line
@@ -396,17 +396,6 @@ F 3 "" H 7300 2550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x04 SW2
-U 1 1 5F2ADDB0
-P 3150 3225
-F 0 "SW2" H 3150 3692 50  0000 C CNN
-F 1 "SW_DIP_x04" H 3150 3601 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile" H 3150 3225 50  0001 C CNN
-F 3 "~" H 3150 3225 50  0001 C CNN
-	1    3150 3225
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_DIP_x03 SW3
 U 1 1 5F2BCE96
 P 8125 6000
@@ -420,32 +409,6 @@ $EndComp
 Wire Wire Line
 	8625 4475 8625 4675
 Connection ~ 8625 4675
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5F341E88
-P 3125 3900
-AR Path="/5F02F4E9/5F341E88" Ref="TP?"  Part="1" 
-AR Path="/5F02F4E9/5F4AA6E5/5F341E88" Ref="TP24"  Part="1" 
-F 0 "TP24" H 3183 4018 50  0000 L CNN
-F 1 "TestPoint" H 3183 3927 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3325 3900 50  0001 C CNN
-F 3 "~" H 3325 3900 50  0001 C CNN
-	1    3125 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3125 3900 3125 4150
-$Comp
-L power:GNDS #PWR017
-U 1 1 5F344131
-P 3125 4150
-F 0 "#PWR017" H 3125 3900 50  0001 C CNN
-F 1 "GNDS" H 3130 3977 50  0000 C CNN
-F 2 "" H 3125 4150 50  0001 C CNN
-F 3 "" H 3125 4150 50  0001 C CNN
-	1    3125 4150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6050 4775 6375 4775
 Wire Wire Line
@@ -558,4 +521,15 @@ Wire Wire Line
 Connection ~ 7525 5800
 Wire Wire Line
 	7525 5800 7825 5800
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J5
+U 1 1 5F2E0CB1
+P 3250 3225
+F 0 "J5" H 3300 2800 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 3300 2891 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 3250 3225 50  0001 C CNN
+F 3 "~" H 3250 3225 50  0001 C CNN
+	1    3250 3225
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
