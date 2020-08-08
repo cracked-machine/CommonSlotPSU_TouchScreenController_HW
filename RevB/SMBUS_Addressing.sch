@@ -343,7 +343,7 @@ F 3 "~" H 7775 2075 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6900 3125 6900 3225
-Text Notes 2425 7100 0    50   ~ 0
+Text Notes 3075 6825 0    50   ~ 0
 1. Digital 3-pin Mode:\nUse SW1 to select bits.\nTypically used by HPE models.\n\nOR\n\n2. Analog 1-pin Mode:\nUse SW3 to select voltage.\nTypically used by Murata models.
 $Comp
 L power:GNDS #PWR?
@@ -568,27 +568,25 @@ Connection ~ 6925 1875
 $Comp
 L Switch:SW_SPDT SW2
 U 1 1 5F43DA46
-P 1375 6750
-F 0 "SW2" H 1375 7035 50  0000 C CNN
-F 1 "SW_SPDT" H 1375 6944 50  0000 C CNN
-F 2 "JS_Series_Sub-Miniature_Slide_Switches:JS102011SAQN" H 1375 6750 50  0001 C CNN
-F 3 "https://docs.rs-online.com/6ed6/0900766b815f51c4.pdf" H 1375 6750 50  0001 C CNN
-	1    1375 6750
+P 1375 6475
+F 0 "SW2" H 1375 6760 50  0000 C CNN
+F 1 "SW_SPDT" H 1375 6669 50  0000 C CNN
+F 2 "JS_Series_Sub-Miniature_Slide_Switches:JS102011SAQN" H 1375 6475 50  0001 C CNN
+F 3 "https://docs.rs-online.com/6ed6/0900766b815f51c4.pdf" H 1375 6475 50  0001 C CNN
+	1    1375 6475
 	1    0    0    -1  
 $EndComp
-Text HLabel 1000 6575 1    50   Input ~ 0
+Text HLabel 1000 6300 1    50   Input ~ 0
 MCU_3V3
 Wire Wire Line
-	1000 6575 1000 6750
+	1000 6300 1000 6475
 Wire Wire Line
-	1000 6750 1175 6750
+	1575 6375 1700 6375
 Wire Wire Line
-	1575 6650 2200 6650
-Wire Wire Line
-	1575 6850 2200 6850
-Text Label 2200 6850 2    50   ~ 0
+	1575 6575 2050 6575
+Text Label 2825 6575 2    50   ~ 0
 ENABLE_ANALOG
-Text Label 2200 6650 2    50   ~ 0
+Text Label 2825 6375 2    50   ~ 0
 ENABLE_DIGITAL
 Wire Wire Line
 	4150 1575 4150 1375
@@ -691,4 +689,72 @@ Wire Wire Line
 	5775 7200 6500 7200
 Wire Wire Line
 	6500 7200 6500 6725
+$Comp
+L Device:R R?
+U 1 1 5F313317
+P 1700 6900
+AR Path="/5EFF0F4B/5F313317" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F313317" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F3E7977/5F313317" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F4AA6E5/5F313317" Ref="R22"  Part="1" 
+F 0 "R22" H 1575 6950 50  0000 C CNN
+F 1 "220R" H 1550 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1630 6900 50  0001 C CNN
+F 3 "~" H 1700 6900 50  0001 C CNN
+	1    1700 6900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6750 1700 6375
+Wire Wire Line
+	1700 7050 1700 7200
+$Comp
+L power:GNDS #PWR018
+U 1 1 5F31D6EA
+P 1700 7200
+F 0 "#PWR018" H 1700 6950 50  0001 C CNN
+F 1 "GNDS" H 1705 7027 50  0000 C CNN
+F 2 "" H 1700 7200 50  0001 C CNN
+F 3 "" H 1700 7200 50  0001 C CNN
+	1    1700 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 6475 1175 6475
+Connection ~ 1700 6375
+Wire Wire Line
+	1700 6375 2825 6375
+$Comp
+L Device:R R?
+U 1 1 5F350823
+P 2050 6900
+AR Path="/5EFF0F4B/5F350823" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F350823" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F3E7977/5F350823" Ref="R?"  Part="1" 
+AR Path="/5F02F4E9/5F4AA6E5/5F350823" Ref="R23"  Part="1" 
+F 0 "R23" H 1925 6950 50  0000 C CNN
+F 1 "220R" H 1900 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1980 6900 50  0001 C CNN
+F 3 "~" H 2050 6900 50  0001 C CNN
+	1    2050 6900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6750 2050 6575
+Wire Wire Line
+	2050 7050 2050 7200
+$Comp
+L power:GNDS #PWR019
+U 1 1 5F35082B
+P 2050 7200
+F 0 "#PWR019" H 2050 6950 50  0001 C CNN
+F 1 "GNDS" H 2055 7027 50  0000 C CNN
+F 2 "" H 2050 7200 50  0001 C CNN
+F 3 "" H 2050 7200 50  0001 C CNN
+	1    2050 7200
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 6575
+Wire Wire Line
+	2050 6575 2825 6575
 $EndSCHEMATC

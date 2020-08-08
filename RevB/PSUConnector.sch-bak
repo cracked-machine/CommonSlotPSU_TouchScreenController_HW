@@ -421,4 +421,145 @@ Text HLabel 4750 4075 0    50   Input ~ 0
 PSU_ADDR2
 Text Notes 1225 1250 0    100  ~ 0
 Card Slot Connector
+Text Notes 1100 6075 0    100  ~ 0
+Testpoints
+Wire Notes Line
+	1025 5800 10425 5800
+$Comp
+L power:GNDS #PWR016
+U 1 1 5F20C83E
+P 1250 6950
+F 0 "#PWR016" H 1250 6700 50  0001 C CNN
+F 1 "GNDS" H 1255 6777 50  0000 C CNN
+F 2 "" H 1250 6950 50  0001 C CNN
+F 3 "" H 1250 6950 50  0001 C CNN
+	1    1250 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 6725 1250 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F208833
+P 1250 6725
+AR Path="/5F02F4E9/5F208833" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F208833" Ref="TP16"  Part="1" 
+F 0 "TP16" H 1175 6975 50  0000 L CNN
+F 1 "TestPoint" H 1308 6752 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1450 6725 50  0001 C CNN
+F 3 "~" H 1450 6725 50  0001 C CNN
+	1    1250 6725
+	1    0    0    -1  
+$EndComp
+Text HLabel 3850 6950 3    50   Input ~ 0
+PSU_SCL
+Text HLabel 3400 6950 3    50   Input ~ 0
+PSU_SDA
+Wire Wire Line
+	3400 6725 3400 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F1FA086
+P 3400 6725
+AR Path="/5F02F4E9/5F1FA086" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F1FA086" Ref="TP14"  Part="1" 
+F 0 "TP14" H 3300 6975 50  0000 L CNN
+F 1 "TestPoint" H 3458 6752 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3600 6725 50  0001 C CNN
+F 3 "~" H 3600 6725 50  0001 C CNN
+	1    3400 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 6725 3850 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F1FA07F
+P 3850 6725
+AR Path="/5F02F4E9/5F1FA07F" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F1FA07F" Ref="TP15"  Part="1" 
+F 0 "TP15" H 3750 6975 50  0000 L CNN
+F 1 "TestPoint" H 3908 6752 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4050 6725 50  0001 C CNN
+F 3 "~" H 4050 6725 50  0001 C CNN
+	1    3850 6725
+	1    0    0    -1  
+$EndComp
+Text HLabel 2200 6950 3    50   Input ~ 0
+PSU_ADDR2
+Text HLabel 2575 6950 3    50   Input ~ 0
+PSU_ADDR1
+Text HLabel 2950 6950 3    50   Input ~ 0
+PSU_ADDR0
+Wire Wire Line
+	2200 6725 2200 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F1DA7F0
+P 2200 6725
+AR Path="/5F02F4E9/5F1DA7F0" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F1DA7F0" Ref="TP11"  Part="1" 
+F 0 "TP11" H 2100 6975 50  0000 L CNN
+F 1 "TestPoint" H 2258 6752 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2400 6725 50  0001 C CNN
+F 3 "~" H 2400 6725 50  0001 C CNN
+	1    2200 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 6725 2950 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F1D6AD4
+P 2950 6725
+AR Path="/5F02F4E9/5F1D6AD4" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F1D6AD4" Ref="TP13"  Part="1" 
+F 0 "TP13" H 2850 6975 50  0000 L CNN
+F 1 "TestPoint" H 3008 6752 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3150 6725 50  0001 C CNN
+F 3 "~" H 3150 6725 50  0001 C CNN
+	1    2950 6725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2575 6725 2575 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F1D2F4B
+P 2575 6725
+AR Path="/5F02F4E9/5F1D2F4B" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F1D2F4B" Ref="TP12"  Part="1" 
+F 0 "TP12" H 2475 6975 50  0000 L CNN
+F 1 "TestPoint" H 2633 6752 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 2775 6725 50  0001 C CNN
+F 3 "~" H 2775 6725 50  0001 C CNN
+	1    2575 6725
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDS #PWR015
+U 1 1 5F196630
+P 1550 6950
+F 0 "#PWR015" H 1550 6700 50  0001 C CNN
+F 1 "GNDS" H 1555 6777 50  0000 C CNN
+F 2 "" H 1550 6950 50  0001 C CNN
+F 3 "" H 1550 6950 50  0001 C CNN
+	1    1550 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6725 1550 6950
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F18B86B
+P 1550 6725
+AR Path="/5F02F4E9/5F18B86B" Ref="TP?"  Part="1" 
+AR Path="/5EFF0F4B/5F18B86B" Ref="TP3"  Part="1" 
+F 0 "TP3" H 1475 6975 50  0000 L CNN
+F 1 "TestPoint" H 1400 7000 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 1750 6725 50  0001 C CNN
+F 3 "~" H 1750 6725 50  0001 C CNN
+	1    1550 6725
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
