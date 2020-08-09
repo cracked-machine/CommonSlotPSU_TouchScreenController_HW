@@ -43,7 +43,7 @@ U 1 1 5F0D5B06
 P 2125 10125
 F 0 "J1" H 2043 10542 50  0000 C CNN
 F 1 "Conn_01x05" H 2043 10451 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 2125 10125 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2125 10125 50  0001 C CNN
 F 3 "~" H 2125 10125 50  0001 C CNN
 	1    2125 10125
 	-1   0    0    -1  

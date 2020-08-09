@@ -4,4 +4,5 @@
   (lib (name ILI9341_TFTLCD)(type KiCad)(uri ${KIPRJMOD}/../../KicadLibrary/footprint/DISPLAYS/ILI9341_TFTLCD.pretty)(options "")(descr ""))
   (lib (name JS_Series_Sub-Miniature_Slide_Switches)(type KiCad)(uri ${KIPRJMOD}/../../KicadLibrary/footprint/SWITCHES/JS_Series_Sub-Miniature_Slide_Switches/JS_Series_Sub-Miniature_Slide_Switches.pretty)(options "")(descr ""))
   (lib (name "TermiMate One-Circuit Terminal-Style Connector System")(type KiCad)(uri "${KIPRJMOD}/../../KicadLibrary/footprint/CONNECTORS/SIGNAL/TermiMate One-Circuit Terminal-Style Connector System.pretty")(options "")(descr ""))
+  (lib (name Samtec_TSM-1XX-XX-X-DH_Right_Angle_Pin_Header)(type KiCad)(uri /home/chris/Projects/Hardware/KicadLibrary/footprint/CONNECTORS/POWER/SAMTEC/SSM/Samtec_TSM-1XX-XX-X-DH_Right_Angle_Pin_Header.pretty)(options "")(descr ""))
 )

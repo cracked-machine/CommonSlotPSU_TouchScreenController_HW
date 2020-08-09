@@ -571,7 +571,7 @@ U 1 1 5F43DA46
 P 1375 6475
 F 0 "SW2" H 1375 6760 50  0000 C CNN
 F 1 "SW_SPDT" H 1375 6669 50  0000 C CNN
-F 2 "JS_Series_Sub-Miniature_Slide_Switches:JS102011SAQN" H 1375 6475 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1375 6475 50  0001 C CNN
 F 3 "https://docs.rs-online.com/6ed6/0900766b815f51c4.pdf" H 1375 6475 50  0001 C CNN
 	1    1375 6475
 	1    0    0    -1  
