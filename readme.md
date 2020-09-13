@@ -56,7 +56,7 @@ A DIP switch (SW3) is used to select the value of the address signal in the Mura
 ### Power Management block
 
 When running a debug session (using SWD via the ICP interface) the NRST pin of the SWD cable is used to reset the MCU before downloading the binary file. However, this reset signal is not sufficient to fully reset the LCD Driver IC [TSC2046](https://www.ti.com/lit/ds/symlink/tsc2046.pdf). As such the LCD screen would only initialise when the entire system was power cycled, and would freeze during debug under reset.
-After inspecting the signals on the LCD driver and the MCU it became apparent that a pulse extender was required. The solution chosen was to use a timer IC [MIC1555](http://ww1.microchip.com/downloads/en/DeviceDoc/mic1555.pdf) to extend the pulse and a MOSFET driver IC [MCP1415](http://ww1.microchip.com/downloads/en/DeviceDoc/20002092G.pdf) to provide the current required for the LCD and driver.
+After inspecting the signals on the LCD driver and the MCU it became apparent that a pulse extender was required to hold the TSC2046 in reset while the MCU re-initialized. The solution chosen was to use a timer IC [MIC1555](http://ww1.microchip.com/downloads/en/DeviceDoc/mic1555.pdf) to extend the pulse and a MOSFET driver IC [MCP1415](http://ww1.microchip.com/downloads/en/DeviceDoc/20002092G.pdf) to provide the current required for the LCD and driver.
 The active low pulse was extended from 300ns <sub>[[5]](#References)</sub> to 1sec. Note that the MCP1415 has an inverted output which reduces further circuitry need to invert the output signal.
 
 ![](RevB/docs/systemdesign/ServerPSUTouchscreenControllerTimingDiagram.svg)
