@@ -1,5 +1,7 @@
 ## TouchScreen Controller for 'CommonSlot' Server PSU
 
+- Related SW Project: https://github.com/cracked-machine/CommonSlotPSU_TouchScreenController_SW
+
 This project repurposes the power supply units (PSU) found in datacentre servers. The PSU are very powerful (12V @ 600W), efficient and compact.
 They are useful for charging LIPO batteries (with some modification) and running brushless motors or any circuit that draws large amounts of current.
 These PSU are replaced in industry on a regular basis - often well before their end-of-life - and can be found for a very reasonable price on the second hand market (ebay). This has been further aided by the rise (and decline) of the bitcoin "boom" a few years back.
