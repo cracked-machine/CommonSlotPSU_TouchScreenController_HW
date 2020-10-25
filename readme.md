@@ -26,9 +26,9 @@ A more detailed view of the interconnections between the high level system block
 
 ### SMPS and PSU Output Enable block
 
-The 12VSB rail is stepped down to 5V using a Texas Instruments [LMR14206 "Simple Switcher"](https://www.ti.com/lit/ds/symlink/lmr14206.pdf). This provides 0.6A at 84% efficiency with 0.5mV output ripple <sub>[[4]](#References)</sub>.
+The 12VSB rail is stepped down to 5V using a Texas Instruments [LMR14206 "Simple Switcher"](https://www.ti.com/lit/ds/symlink/lmr14206.pdf). This provides 0.6A at 84% efficiency with 0.5mV output ripple <sub>[[4]](#References)</sub>. For the higher current requirements of the OLED screen this is preferable over the power disspiation that would be caused by a linear regulator (4.2W).
 
-The 5V output is stepped down further to 3V3 to supply the MCU.
+The 12VSB output is stepped down to 3V3 to supply the MCU. Since the MCU only draws 0.025A, the subsequent power disspation (0.2W) from the regulator (with PCB heatsink) is acceptable.
 
 The PSU has insertion detection (using the PRESENT card slot pin #36). This alerts the PSU that it has been inserted into the back of a server housing. To enable this we simply connect this to 12VSB card slot pin #37 via a 22K resistor. With this in place we can enable the PSU output by pulling the PSON (card slot pin #33) to ground using an external NMOS. The gate of this NMOS is controlled by the MCU.
 
