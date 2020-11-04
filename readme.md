@@ -1,5 +1,7 @@
 ## TouchScreen Controller for 'CommonSlot' Server PSU
 
+
+- Required Kicad Hardware library: https://github.com/cracked-machine/KicadLibrary
 - Related SW Project: https://github.com/cracked-machine/CommonSlotPSU_TouchScreenController_SW
 
 This project repurposes the power supply units (PSU) found in datacentre servers. The PSU are very powerful (12V @ 600W), efficient and compact.
